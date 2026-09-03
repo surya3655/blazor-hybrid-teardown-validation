@@ -1,0 +1,130 @@
+2026-09-02T09:36:32.6440899+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: C:\Users\SuryaElayaperumal\AppData\Local\Packages\HybridTearDown_ph1m9x8skttmg\LocalState\evidence.log
+2026-09-02T09:36:32.6626290+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T09:36:32.6682212+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 81 MB.
+2026-09-02T09:36:33.0510623+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T09:36:33.3258096+05:30 | Information | Lifecycle | Window created.
+2026-09-02T09:36:33.3498769+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T09:36:37.6682186+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 244 MB.
+2026-09-02T09:36:39.9212682+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T09:36:42.6781875+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 243 MB.
+2026-09-02T09:36:47.6648205+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 239 MB.
+2026-09-02T09:36:49.7249621+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T09:36:49.7266778+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T09:36:49.7621118+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T09:36:49.8135738+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T09:36:49.8145440+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T09:36:50.6558824+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:36:52.6757896+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 245 MB.
+2026-09-02T09:36:54.5211354+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 36. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:36:54.5480033+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 36 calls.
+2026-09-02T09:36:54.5487579+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 27 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:36:54.9721494+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:36:57.6753202+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 251 MB.
+2026-09-02T09:36:59.0227025+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 37. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:36:59.0417561+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 37 calls.
+2026-09-02T09:36:59.0431631+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 19 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:36:59.0606614+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:37:02.6682057+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 251 MB.
+2026-09-02T09:37:03.7430734+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 18. WebView destroyed first: False.
+2026-09-02T09:37:03.7913744+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 18 ticks.
+2026-09-02T09:37:03.7922266+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 48 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:03.7936617+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:37:07.3384438+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 33. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:37:07.3513839+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 33 calls.
+2026-09-02T09:37:07.3537321+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 12 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:07.3694698+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:37:07.6667000+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 249 MB.
+2026-09-02T09:37:10.4717328+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 12. WebView destroyed first: False.
+2026-09-02T09:37:10.4818529+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 12 ticks.
+2026-09-02T09:37:10.4835204+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 10 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:10.4845191+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:37:12.6711592+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 250 MB.
+2026-09-02T09:37:13.0991245+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 24. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:37:13.1092612+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 24 calls.
+2026-09-02T09:37:13.1118420+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 10 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:13.1396187+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:37:17.6631678+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 18. WebView destroyed first: False.
+2026-09-02T09:37:17.6649132+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 251 MB.
+2026-09-02T09:37:17.6681122+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 18 ticks.
+2026-09-02T09:37:17.6816686+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 4 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:17.6973377+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:37:21.9105613+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 39. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:37:21.9188530+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 39 calls.
+2026-09-02T09:37:21.9204430+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 8 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:21.9219356+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:37:22.6779141+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 250 MB.
+2026-09-02T09:37:27.6366524+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 22. WebView destroyed first: False.
+2026-09-02T09:37:27.6523551+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 22 ticks.
+2026-09-02T09:37:27.6538497+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 15 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:27.6648542+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:37:27.6685689+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 251 MB.
+2026-09-02T09:37:31.9416860+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 40. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:37:31.9518280+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 40 calls.
+2026-09-02T09:37:31.9533825+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 10 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:31.9721683+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:37:32.6705301+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 254 MB.
+2026-09-02T09:37:36.3098659+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 17. WebView destroyed first: False.
+2026-09-02T09:37:36.3193667+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 17 ticks.
+2026-09-02T09:37:36.3216503+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 9 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:36.3263775+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:37:37.6662295+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 8 MB. Working set: 254 MB.
+2026-09-02T09:37:40.6911476+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 40. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:37:40.7011197+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 40 calls.
+2026-09-02T09:37:40.7037054+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 9 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:40.7329463+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:37:42.6685166+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 8 MB. Working set: 253 MB.
+2026-09-02T09:37:45.6089448+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 19. WebView destroyed first: False.
+2026-09-02T09:37:45.6208979+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 19 ticks.
+2026-09-02T09:37:45.6229852+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 11 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:45.6266067+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:37:47.6661536+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 252 MB.
+2026-09-02T09:37:48.8213420+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 30. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:37:48.8457990+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 30 calls.
+2026-09-02T09:37:48.8468488+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 24 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:48.8482720+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:37:52.6805003+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 255 MB.
+2026-09-02T09:37:54.3553477+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 22. WebView destroyed first: False.
+2026-09-02T09:37:54.3684142+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 22 ticks.
+2026-09-02T09:37:54.3697957+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 13 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:54.3710004+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:37:57.6763223+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 253 MB.
+2026-09-02T09:37:58.6347662+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 39. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:37:58.6519220+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 39 calls.
+2026-09-02T09:37:58.6547201+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 17 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:37:58.6732240+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:38:02.6780137+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 251 MB.
+2026-09-02T09:38:04.8984918+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 24. WebView destroyed first: False.
+2026-09-02T09:38:04.9034319+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 24 ticks.
+2026-09-02T09:38:04.9066389+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 4 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:38:04.9289223+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:38:07.6780629+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 251 MB.
+2026-09-02T09:38:09.1368256+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 39. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:38:09.1483934+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 39 calls.
+2026-09-02T09:38:09.1495717+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 11 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:38:09.1613920+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:38:12.6692978+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 250 MB.
+2026-09-02T09:38:14.5263021+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 21. WebView destroyed first: False.
+2026-09-02T09:38:14.5318736+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 21 ticks.
+2026-09-02T09:38:14.5332546+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 5 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:38:14.5439618+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:38:17.6711277+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 251 MB.
+2026-09-02T09:38:20.1835378+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 52. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:38:20.1986269+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 52 calls.
+2026-09-02T09:38:20.1999330+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 15 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:38:20.2115542+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:38:22.6742306+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 254 MB.
+2026-09-02T09:38:24.6938854+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 17. WebView destroyed first: False.
+2026-09-02T09:38:25.2590956+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 17 ticks.
+2026-09-02T09:38:25.2609766+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 565 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:38:25.2820141+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:38:27.6686283+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 254 MB.
+2026-09-02T09:38:29.7852501+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T09:38:30.5765801+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T09:38:30.5779532+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T09:38:31.0892042+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T09:38:32.6711359+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 254 MB.
+2026-09-02T09:38:36.9155627+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T09:38:36.9164133+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T09:38:37.6749585+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 255 MB.
+2026-09-02T09:38:41.6779297+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: False.
+2026-09-02T09:38:41.6806638+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 2 ms. Unhandled: 0. Unobserved: 0.

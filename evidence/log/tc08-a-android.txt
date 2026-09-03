@@ -1,0 +1,112 @@
+2026-09-03T09:02:43.5353071+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-03T09:02:43.6669232+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-03T09:02:43.6821166+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 192 MB.
+2026-09-03T09:02:44.3488614+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-03T09:02:45.6713123+05:30 | Information | Lifecycle | Window created.
+2026-09-03T09:02:45.6825527+05:30 | Information | Lifecycle | Window activated.
+2026-09-03T09:02:48.6640254+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 352 MB.
+2026-09-03T09:02:53.6669352+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 351 MB.
+2026-09-03T09:02:58.6705599+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 351 MB.
+2026-09-03T09:03:03.6684730+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 351 MB.
+2026-09-03T09:03:08.6656635+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 348 MB.
+2026-09-03T09:03:13.6639096+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 348 MB.
+2026-09-03T09:03:18.6655812+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 345 MB.
+2026-09-03T09:03:23.6687369+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 344 MB.
+2026-09-03T09:03:28.6657910+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 343 MB.
+2026-09-03T09:03:33.6655702+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 343 MB.
+2026-09-03T09:03:38.6669932+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 344 MB.
+2026-09-03T09:03:43.6646063+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 344 MB.
+2026-09-03T09:03:48.6671765+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 345 MB.
+2026-09-03T09:03:53.6717678+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 345 MB.
+2026-09-03T09:03:58.6665058+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 345 MB.
+2026-09-03T09:04:03.6652968+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 345 MB.
+2026-09-03T09:04:08.6698651+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 344 MB.
+2026-09-03T09:04:09.8169995+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-03T09:04:13.6672193+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 354 MB.
+2026-09-03T09:04:16.3527939+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 1 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:04:18.6692130+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 358 MB.
+2026-09-03T09:04:22.3531118+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 2 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:04:23.6675484+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 359 MB.
+2026-09-03T09:04:25.5483480+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 3 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:04:28.6654180+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 360 MB.
+2026-09-03T09:04:29.5151439+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 4 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:04:32.5185127+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 5 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:04:33.6700523+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 362 MB.
+2026-09-03T09:04:35.9576232+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 6 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:04:38.6667949+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 363 MB.
+2026-09-03T09:04:43.6678961+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 362 MB.
+2026-09-03T09:04:47.3897605+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 7 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:04:48.6650147+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 362 MB.
+2026-09-03T09:04:50.8539391+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 8 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:04:53.6682843+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 367 MB.
+2026-09-03T09:04:55.5845744+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 316. Module reference live: True. WebView destroyed first: False.
+2026-09-03T09:04:55.6596804+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 316 calls.
+2026-09-03T09:04:55.6611079+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 75 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-03T09:04:58.0884941+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-03T09:04:58.6664191+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 367 MB.
+2026-09-03T09:05:00.0337442+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 9 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:03.5391205+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 10 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:03.6706503+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 369 MB.
+2026-09-03T09:05:07.0643038+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 11 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:08.6651092+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 370 MB.
+2026-09-03T09:05:10.7225884+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 12 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:13.6673942+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 371 MB.
+2026-09-03T09:05:13.7814339+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 13 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:18.0432189+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 14 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:18.6693232+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 371 MB.
+2026-09-03T09:05:21.4982465+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 15 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:23.6677594+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 369 MB.
+2026-09-03T09:05:24.6573083+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 16 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:27.5186435+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall entered. Call state: completed. WebView destroyed first: False.
+2026-09-03T09:05:27.5346682+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: completed.
+2026-09-03T09:05:27.5363376+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall returned after 16 ms. Was in flight at disposal: False. Module disposed cleanly: True.
+2026-09-03T09:05:27.6471295+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-03T09:05:28.6658477+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 363 MB.
+2026-09-03T09:05:33.6675121+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 364 MB.
+2026-09-03T09:05:36.9111033+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 17 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:38.6657920+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 364 MB.
+2026-09-03T09:05:40.5029078+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 18 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:43.6681065+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 369 MB.
+2026-09-03T09:05:44.3104593+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 19 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:47.4941115+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 20 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:48.6693240+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 370 MB.
+2026-09-03T09:05:50.4986040+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 21 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:53.6676267+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 368 MB.
+2026-09-03T09:05:53.7792394+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 22 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:58.0518457+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 23 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:05:58.6699104+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 371 MB.
+2026-09-03T09:06:01.4963791+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 24 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:06:03.6688751+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 372 MB.
+2026-09-03T09:06:04.2281086+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 25 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:06:07.1833188+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 26 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:06:08.6696260+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 370 MB.
+2026-09-03T09:06:09.3887353+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 166. WebView destroyed first: False.
+2026-09-03T09:06:09.6201775+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 166 ticks.
+2026-09-03T09:06:09.6219463+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 231 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-03T09:06:13.6654457+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 374 MB.
+2026-09-03T09:06:18.3625816+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 27 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:06:18.6670974+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 370 MB.
+2026-09-03T09:06:21.5752344+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 28 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:06:23.6647474+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 374 MB.
+2026-09-03T09:06:23.9408590+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 29 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:06:27.3313954+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 30 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:06:28.6705294+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 375 MB.
+2026-09-03T09:06:30.5948968+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 31 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:06:33.6705809+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 376 MB.
+2026-09-03T09:06:34.4111642+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 32 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:06:36.7958598+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 33 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:06:38.6679687+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 372 MB.
+2026-09-03T09:06:39.7615774+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 34 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:06:42.3785342+05:30 | Information | Diagnostics | [Rotation] Orientation changed to landscape. Rotation 35 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:06:43.6665148+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 370 MB.
+2026-09-03T09:06:45.1125829+05:30 | Information | Diagnostics | [Rotation] Orientation changed to portrait. Rotation 36 this session. Activity recreated: False. Cycle 1.
+2026-09-03T09:06:48.6682822+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 377 MB.
+2026-09-03T09:06:53.6649730+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 374 MB.
+2026-09-03T09:06:58.6661063+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 374 MB.
+2026-09-03T09:07:03.6692085+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 374 MB.
+2026-09-03T09:07:08.6666921+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 375 MB.
+2026-09-03T09:07:13.6677521+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 375 MB.
+2026-09-03T09:07:18.6660203+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 370 MB.
+2026-09-03T09:07:18.9690822+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-03T09:07:19.5135600+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-03T09:07:19.5160224+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: False.

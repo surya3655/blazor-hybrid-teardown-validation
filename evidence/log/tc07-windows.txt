@@ -1,0 +1,102 @@
+2026-09-02T17:04:52.5053543+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: C:\Users\SuryaElayaperumal\AppData\Local\Packages\HybridTearDown_ph1m9x8skttmg\LocalState\evidence.log
+2026-09-02T17:04:52.5619776+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T17:04:52.5728488+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 108 MB.
+2026-09-02T17:04:56.6615025+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T17:04:57.5756011+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 168 MB.
+2026-09-02T17:04:58.2531201+05:30 | Information | Lifecycle | Window created.
+2026-09-02T17:04:58.2798442+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T17:05:02.5783112+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 245 MB.
+2026-09-02T17:05:07.5726639+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 241 MB.
+2026-09-02T17:05:12.5697748+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 239 MB.
+2026-09-02T17:05:16.5442591+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T17:05:17.5798047+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 243 MB.
+2026-09-02T17:05:20.8102450+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T17:05:20.8120008+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T17:05:22.5734535+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 243 MB.
+2026-09-02T17:05:26.0436368+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T17:05:27.5787958+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 241 MB.
+2026-09-02T17:05:28.8384566+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T17:05:28.8416965+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T17:05:31.0035407+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T17:05:32.5709069+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 246 MB.
+2026-09-02T17:05:36.0181978+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T17:05:36.0444123+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T17:05:37.5781115+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 249 MB.
+2026-09-02T17:05:42.5809911+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 253 MB.
+2026-09-02T17:05:47.5724732+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 248 MB.
+2026-09-02T17:05:52.5781015+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 248 MB.
+2026-09-02T17:05:57.5753199+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 248 MB.
+2026-09-02T17:06:02.5749174+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 248 MB.
+2026-09-02T17:06:07.5679731+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 249 MB.
+2026-09-02T17:06:08.5969260+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: False.
+2026-09-02T17:06:08.5991040+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 2 ms. Unhandled: 0. Unobserved: 0.
+2026-09-02T17:06:26.9749956+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: C:\Users\SuryaElayaperumal\AppData\Local\Packages\HybridTearDown_ph1m9x8skttmg\LocalState\evidence.log
+2026-09-02T17:06:27.0072443+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T17:06:27.0170051+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 81 MB.
+2026-09-02T17:06:27.6494786+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T17:06:28.1038249+05:30 | Information | Lifecycle | Window created.
+2026-09-02T17:06:28.1281423+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T17:06:32.0138569+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 243 MB.
+2026-09-02T17:06:34.6166853+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T17:06:36.1237507+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T17:06:36.1263543+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T17:06:37.0110637+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 242 MB.
+2026-09-02T17:06:40.6968913+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T17:06:42.0251791+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 244 MB.
+2026-09-02T17:06:46.0869550+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T17:06:46.1282308+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T17:06:47.0193169+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 243 MB.
+2026-09-02T17:06:52.0114216+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 240 MB.
+2026-09-02T17:06:57.0157457+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 243 MB.
+2026-09-02T17:07:02.0189804+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 243 MB.
+2026-09-02T17:07:07.0119555+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 241 MB.
+2026-09-02T17:07:12.0239742+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 240 MB.
+2026-09-02T17:07:17.0155634+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 240 MB.
+2026-09-02T17:07:21.0137395+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: False.
+2026-09-02T17:07:21.0150897+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 1 ms. Unhandled: 0. Unobserved: 0.
+2026-09-02T17:07:40.8283714+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: C:\Users\SuryaElayaperumal\AppData\Local\Packages\HybridTearDown_ph1m9x8skttmg\LocalState\evidence.log
+2026-09-02T17:07:40.8538070+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T17:07:40.8639542+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 82 MB.
+2026-09-02T17:07:41.4099849+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T17:07:41.7791381+05:30 | Information | Lifecycle | Window created.
+2026-09-02T17:07:41.7999859+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T17:07:45.8598599+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 247 MB.
+2026-09-02T17:07:47.6328151+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T17:07:50.8657276+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 246 MB.
+2026-09-02T17:07:55.8612775+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 248 MB.
+2026-09-02T17:07:58.8293573+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T17:07:58.8581380+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T17:08:00.8637356+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 248 MB.
+2026-09-02T17:08:05.8614598+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 8 MB. Working set: 252 MB.
+2026-09-02T17:08:10.8717978+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 253 MB.
+2026-09-02T17:08:15.8583367+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 247 MB.
+2026-09-02T17:08:20.8579650+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 247 MB.
+2026-09-02T17:08:25.8586098+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 247 MB.
+2026-09-02T17:08:30.8655241+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 247 MB.
+2026-09-02T17:08:32.4493774+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: False.
+2026-09-02T17:08:32.4518188+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 2 ms. Unhandled: 0. Unobserved: 0.
+2026-09-02T17:08:50.3291888+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: C:\Users\SuryaElayaperumal\AppData\Local\Packages\HybridTearDown_ph1m9x8skttmg\LocalState\evidence.log
+2026-09-02T17:08:50.3984166+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T17:08:50.4075561+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 81 MB.
+2026-09-02T17:08:51.0254608+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T17:08:51.4856308+05:30 | Information | Lifecycle | Window created.
+2026-09-02T17:08:51.5132239+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T17:08:55.4119635+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 244 MB.
+2026-09-02T17:08:58.8030142+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T17:08:58.8414652+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T17:09:00.4024677+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 244 MB.
+2026-09-02T17:09:01.3986283+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T17:09:01.3998867+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T17:09:05.4052174+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 246 MB.
+2026-09-02T17:09:10.4023800+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 249 MB.
+2026-09-02T17:09:10.7815225+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T17:09:10.8046625+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T17:09:15.4130746+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 248 MB.
+2026-09-02T17:09:20.4148231+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 8 MB. Working set: 245 MB.
+2026-09-02T17:09:25.4070140+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 8 MB. Working set: 246 MB.
+2026-09-02T17:09:30.4123069+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 247 MB.
+2026-09-02T17:09:35.4109832+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 253 MB.
+2026-09-02T17:09:40.4029182+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 251 MB.
+2026-09-02T17:09:45.4064157+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 251 MB.
+2026-09-02T17:09:48.8542936+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: False.
+2026-09-02T17:09:48.8566303+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 2 ms. Unhandled: 0. Unobserved: 0.

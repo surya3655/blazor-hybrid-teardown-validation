@@ -1,0 +1,110 @@
+@page "/callback-uncaught"
+@implements IAsyncDisposable
+@inject IJSRuntime JS
+@inject ILogger<CallbackStressUncaught> Logger
+
+@*
+    TC05 — the UNCAUGHT variant, on purpose.
+
+    This component deliberately does NOT catch JSDisconnectedException around the
+    interop call it makes inside DisposeAsync. It exists to establish the boundary
+    between framework responsibility and app responsibility:
+
+      - The framework fix guarantees that disposing an IJSObjectReference after the
+        connection is gone does not surface JSDisconnectedException.
+      - It does NOT promise that an app-initiated call inside DisposeAsync stays
+        silent. That exception is expected here.
+
+    Expected result: a handleable exception may be recorded. The app must NOT hang,
+    must NOT crash, and it must NOT become an unhandled exception.
+
+    Do not "fix" this file. Its lack of a catch block is the test.
+*@
+
+<PageTitle>JavaScript callback (uncaught)</PageTitle>
+
+<article class="workbench">
+    <p class="eyebrow">Scenario 05</p>
+    <h1>Callback with uncaught disposal interop</h1>
+    <p>Identical to Scenario 04, except the disposal-time JavaScript call is not guarded.</p>
+    <ScenarioStatus Label="Callbacks received" Value="@_callbackCount.ToString()" />
+    <p class="instruction">TC05 only. Navigate away while callbacks are arriving.</p>
+</article>
+
+@code {
+    private DotNetObjectReference<CallbackStressUncaught>? _dotNetReference;
+    private IJSObjectReference? _module;
+    private int _callbackHandle;
+    private int _callbackCount;
+    private bool _isDisposed;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender)
+        {
+            return;
+        }
+
+        _module = await JS.InvokeAsync<IJSObjectReference>("import", "./js/teardown.js");
+        _dotNetReference = DotNetObjectReference.Create(this);
+        TeardownDiagnostics.TrackComponent(this);
+        TeardownDiagnostics.TrackModule(_module);
+        TeardownDiagnostics.TrackDotNetReference(_dotNetReference);
+
+        _callbackHandle = await _module.InvokeAsync<int>("startCallbacks", _dotNetReference);
+    }
+
+    [JSInvokable]
+    public async Task OnJavaScriptTick(int sequence)
+    {
+        if (_isDisposed)
+        {
+            throw new InvalidOperationException("CallbackStressUncaught is disposed.");
+        }
+
+        _callbackCount = sequence;
+
+        try
+        {
+            await InvokeAsync(StateHasChanged);
+        }
+        catch (ObjectDisposedException)
+        {
+        }
+        catch (InvalidOperationException)
+        {
+        }
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        _isDisposed = true;
+
+        var stopwatch = Stopwatch.StartNew();
+        Logger.LogInformation(
+            "[Dispose] CallbackStressUncaught entered. Callbacks so far: {CallbackCount}. WebView destroyed first: {WebViewGone}.",
+            _callbackCount, TeardownDiagnostics.WebViewDestroyed);
+
+        try
+        {
+            if (_module is not null)
+            {
+                // INTENTIONALLY UNGUARDED — this is what TC05 measures.
+                await _module.InvokeVoidAsync("stopCallbacks", _callbackHandle);
+                await _module.DisposeAsync();
+            }
+        }
+        finally
+        {
+            _dotNetReference?.Dispose();
+            _dotNetReference = null;
+
+            stopwatch.Stop();
+
+            Logger.LogInformation("[Cleanup] CallbackStressUncaught completed after {CallbackCount} callbacks.", _callbackCount);
+            Logger.LogInformation("[Dispose] CallbackStressUncaught returned after {ElapsedMs} ms.", stopwatch.ElapsedMilliseconds);
+
+            Debug.WriteLine($"[Cleanup] CallbackStressUncaught completed after {_callbackCount} callbacks.");
+        }
+    }
+}

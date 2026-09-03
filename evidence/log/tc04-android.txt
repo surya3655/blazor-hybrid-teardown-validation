@@ -1,0 +1,147 @@
+2026-09-02T16:20:09.0698837+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 364 MB.
+2026-09-02T16:20:09.0777851+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 364 MB.
+2026-09-02T16:20:14.0745726+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:20:19.0742586+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:20:24.0737500+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:20:29.0726554+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:20:34.0773547+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:20:39.0728229+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:20:44.0724534+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:20:49.0764637+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:20:54.0728516+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:20:59.0722200+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:21:04.0754500+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:21:09.0750668+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:21:14.0745020+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:21:19.0747109+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:21:24.0749184+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:21:29.0744074+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:21:34.0733868+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:21:39.0718717+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:21:44.0760404+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:21:49.0755435+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:21:54.0752473+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:21:59.0747129+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:22:04.0748158+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:22:09.0733064+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:22:14.0719624+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:22:19.0754202+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:22:24.0754354+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:22:29.0747972+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:22:34.0748643+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:22:39.0781090+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:22:44.0736967+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:22:49.0720932+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:22:54.0756530+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:22:59.0772568+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:23:04.0722411+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:23:09.0770671+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:23:14.0726792+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:23:19.0747016+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:23:24.0735339+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:23:29.0719316+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:23:34.0754669+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:23:39.0736381+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:23:44.0726355+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:23:49.0775433+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:23:54.0729016+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:23:59.0734708+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:24:04.0727368+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:24:09.0729107+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:24:14.0746019+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:24:19.0744658+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:24:24.0736504+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:24:29.0728556+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:24:34.0763698+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:24:39.0722518+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:24:44.0721468+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:24:49.0744640+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:24:54.0765959+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:24:59.0758961+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:25:04.0753433+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:25:09.0750014+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:25:14.0748113+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:25:19.0732402+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:25:24.0720077+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:25:29.0752687+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 365 MB.
+2026-09-02T16:26:09.2526359+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-02T16:26:09.4715883+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T16:26:09.5456592+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 196 MB.
+2026-09-02T16:26:12.6122718+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T16:26:14.4721929+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 245 MB.
+2026-09-02T16:26:18.7827337+05:30 | Information | Lifecycle | Window created.
+2026-09-02T16:26:18.8121398+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T16:26:19.4737864+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 299 MB.
+2026-09-02T16:26:24.4715813+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 327 MB.
+2026-09-02T16:26:29.4743573+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 352 MB.
+2026-09-02T16:26:34.4729377+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 355 MB.
+2026-09-02T16:26:39.4715064+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 355 MB.
+2026-09-02T16:26:44.4733137+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 355 MB.
+2026-09-02T16:26:49.4718952+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 356 MB.
+2026-09-02T16:26:54.4712454+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 356 MB.
+2026-09-02T16:26:59.4736870+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 356 MB.
+2026-09-02T16:27:04.4716975+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 356 MB.
+2026-09-02T16:27:07.9309486+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T16:27:09.4762608+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 358 MB.
+2026-09-02T16:27:10.4106591+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T16:27:12.2627563+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T16:27:12.2820147+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: True.
+2026-09-02T16:27:12.2856320+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 3 ms. Unhandled: 0. Unobserved: 0.
+2026-09-02T16:27:14.4725585+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 358 MB.
+2026-09-02T16:27:15.2330144+05:30 | Information | Lifecycle | Window created.
+2026-09-02T16:27:15.2646881+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T16:27:19.4759775+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 365 MB.
+2026-09-02T16:27:20.0254255+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T16:27:20.8419738+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 3. WebView destroyed first: False.
+2026-09-02T16:27:21.4214409+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 3 ticks.
+2026-09-02T16:27:21.4251400+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 587 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T16:27:23.7226421+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T16:27:24.4738892+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 370 MB.
+2026-09-02T16:27:26.3098072+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T16:27:27.5419248+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T16:27:27.5473748+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: True.
+2026-09-02T16:27:27.5586966+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 11 ms. Unhandled: 0. Unobserved: 0.
+2026-09-02T16:27:29.4709967+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 371 MB.
+2026-09-02T16:27:30.2324107+05:30 | Information | Lifecycle | Window created.
+2026-09-02T16:27:30.2522336+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T16:27:33.9922742+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T16:27:34.4746634+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 375 MB.
+2026-09-02T16:27:36.4256471+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T16:27:37.1772963+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T16:27:37.1829632+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: True.
+2026-09-02T16:27:37.1840924+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 1 ms. Unhandled: 0. Unobserved: 0.
+2026-09-02T16:27:39.1641169+05:30 | Information | Lifecycle | Window created.
+2026-09-02T16:27:39.1685691+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T16:27:39.4742677+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 372 MB.
+2026-09-02T16:27:44.4713645+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 376 MB.
+2026-09-02T16:27:45.1684305+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T16:27:46.6451333+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T16:27:47.5844682+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T16:27:47.5853312+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: True.
+2026-09-02T16:27:47.5855798+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 0 ms. Unhandled: 0. Unobserved: 0.
+2026-09-02T16:27:49.4751215+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 377 MB.
+2026-09-02T16:27:49.4919490+05:30 | Information | Lifecycle | Window created.
+2026-09-02T16:27:49.5222111+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T16:27:54.4725332+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 379 MB.
+2026-09-02T16:27:55.2873183+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T16:27:57.5612968+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T16:27:58.4198302+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T16:27:58.4213316+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: True.
+2026-09-02T16:27:58.4216821+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 0 ms. Unhandled: 0. Unobserved: 0.
+2026-09-02T16:27:59.4759188+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 380 MB.
+2026-09-02T16:27:59.7962432+05:30 | Information | Lifecycle | Window created.
+2026-09-02T16:27:59.7973657+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T16:28:04.3036930+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 1.
+2026-09-02T16:28:04.3698077+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T16:28:04.4736233+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 383 MB.
+2026-09-02T16:28:04.5046734+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T16:28:04.6297260+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall entered. Call state: not started. WebView destroyed first: True.
+2026-09-02T16:28:04.6304716+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-02T16:28:04.6308992+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall returned after 0 ms. Was in flight at disposal: False. Module disposed cleanly: False.
+2026-09-02T16:28:06.6597476+05:30 | Information | Diagnostics | [Memory] Retained after collection (checkpoint). Cycle 1. MainPage=6/6 BlazorWebView=6/6 Components=6/6 Modules=6/6 Timers=1/1 DotNetRefs=0/0. GC heap: 2 MB. Working set: 382 MB.
+2026-09-02T16:28:06.6632117+05:30 | Information | Diagnostics | [Drain] Finalizer drain complete (checkpoint). Unobserved exceptions surfaced by this drain: 0. Session totals — unhandled: 0, unobserved: 0.
+2026-09-02T16:28:09.4750642+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 381 MB.
+2026-09-02T16:28:10.3490869+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 1.
+2026-09-02T16:28:10.3501940+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 2.
+2026-09-02T16:28:10.3509987+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T16:28:14.4741602+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 2. GC heap: 3 MB. Working set: 383 MB.

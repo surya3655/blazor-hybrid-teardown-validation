@@ -1,0 +1,101 @@
+@page "/slow-call"
+@implements IAsyncDisposable
+@inject IJSRuntime JS
+@inject ILogger<SlowCall> Logger
+
+<PageTitle>Slow call</PageTitle>
+
+<article class="workbench">
+    <p class="eyebrow">Scenario 02</p>
+    <h1>Unawaited slow call</h1>
+    <p>Each start launches a 15-second JavaScript promise. The event handler returns immediately.</p>
+    <button class="command" @onclick="StartSlowCall" disabled="@(_inFlight is { IsCompleted: false })">Start 15-second call</button>
+    <ScenarioStatus Label="Call state" Value="@CallState" />
+    <p class="instruction">Start the call, then immediately navigate, switch native, background, or close.</p>
+</article>
+
+@code {
+    private IJSObjectReference? _module;
+    private Task<string>? _inFlight;
+
+    private string CallState => _inFlight switch
+    {
+        null => "not started",
+        { IsCompletedSuccessfully: true } => "completed",
+        { IsFaulted: true } => "faulted",
+        { IsCanceled: true } => "canceled",
+        _ => "in flight"
+    };
+
+    private async Task StartSlowCall()
+    {
+        _module ??= await JS.InvokeAsync<IJSObjectReference>("import", "./js/teardown.js");
+        TeardownDiagnostics.TrackComponent(this);
+        TeardownDiagnostics.TrackModule(_module);
+
+        _inFlight = _module.InvokeAsync<string>("slowCall", 15_000).AsTask();
+
+        // Observe and suppress any exception (e.g. JSDisconnectedException) so an
+        // abandoned promise cannot become an unobserved task exception.
+        _ = _inFlight.ContinueWith(t =>
+        {
+            if (t.IsFaulted)
+            {
+                var observed = t.Exception;
+                TeardownDiagnostics.RecordObservedSlowCallFault(observed);
+            }
+        }, TaskContinuationOptions.ExecuteSynchronously);
+
+        // Registered so the shutdown record can state whether a call was still
+        // in flight at the moment the app closed. Required by TC04 path proof.
+        TeardownDiagnostics.RegisterInFlightProbe(() => _inFlight is { IsCompleted: false });
+
+        Logger.LogInformation("[SlowCall] Started 15-second operation. State: {CallState}.", CallState);
+        Debug.WriteLine($"[SlowCall] Started 15-second operation. State: {CallState}.");
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        var stopwatch = Stopwatch.StartNew();
+        var stateAtEntry = CallState;
+
+        Logger.LogInformation(
+            "[Dispose] SlowCall entered. Call state: {CallState}. WebView destroyed first: {WebViewGone}.",
+            stateAtEntry, TeardownDiagnostics.WebViewDestroyed);
+
+        var moduleDisposed = false;
+
+        if (_module is not null)
+        {
+            try
+            {
+                await _module.DisposeAsync().AsTask().WaitAsync(TeardownDiagnostics.DisposeTimeout);
+                moduleDisposed = true;
+            }
+            catch (JSDisconnectedException)
+            {
+                // The case this whole validation exists for. Must not escape.
+            }
+            catch (ObjectDisposedException)
+            {
+            }
+            catch (TimeoutException)
+            {
+                Logger.LogWarning("[Dispose] SlowCall module disposal timed out.");
+            }
+        }
+
+        // Deliberately NOT awaited: the abandoned 15-second promise must not
+        // delay teardown. The continuation above already observes its fault.
+        TeardownDiagnostics.ClearInFlightProbe();
+
+        stopwatch.Stop();
+
+        Logger.LogInformation("[Cleanup] SlowCall completed. Call state: {CallState}.", stateAtEntry);
+        Logger.LogInformation(
+            "[Dispose] SlowCall returned after {ElapsedMs} ms. Was in flight at disposal: {WasInFlight}. Module disposed cleanly: {ModuleDisposed}.",
+            stopwatch.ElapsedMilliseconds, stateAtEntry == "in flight", moduleDisposed);
+
+        Debug.WriteLine($"[Cleanup] SlowCall completed. Call state: {stateAtEntry}.");
+    }
+}

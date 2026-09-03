@@ -1,0 +1,13 @@
+<div class="status-line">
+    <span class="pulse" aria-hidden="true"></span>
+    <strong>@Label</strong>
+    <output>@Value</output>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public required string Label { get; set; }
+
+    [Parameter, EditorRequired]
+    public required string Value { get; set; }
+}

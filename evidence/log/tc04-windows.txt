@@ -1,0 +1,61 @@
+2026-09-02T12:30:31.7194365+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: C:\Users\SuryaElayaperumal\AppData\Local\Packages\HybridTearDown_ph1m9x8skttmg\LocalState\evidence.log
+2026-09-02T12:30:31.7451869+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T12:30:31.7507870+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 108 MB.
+2026-09-02T12:30:34.9484363+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T12:30:35.9403671+05:30 | Information | Lifecycle | Window created.
+2026-09-02T12:30:35.9611732+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T12:30:36.7471567+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 216 MB.
+2026-09-02T12:30:41.4082239+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T12:30:41.7549667+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 246 MB.
+2026-09-02T12:30:46.7616130+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 243 MB.
+2026-09-02T12:30:50.0584387+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T12:30:50.0595527+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T12:30:50.0868600+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T12:30:50.1077222+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T12:30:50.1084372+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T12:30:51.7510368+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 241 MB.
+2026-09-02T12:30:56.3250075+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T12:30:56.7578767+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 245 MB.
+2026-09-02T12:30:58.3041627+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: True.
+2026-09-02T12:30:58.3074046+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 3 ms. Unhandled: 0. Unobserved: 0.
+2026-09-02T12:31:09.1613941+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: C:\Users\SuryaElayaperumal\AppData\Local\Packages\HybridTearDown_ph1m9x8skttmg\LocalState\evidence.log
+2026-09-02T12:31:09.1813167+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T12:31:09.1879069+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 81 MB.
+2026-09-02T12:31:09.6480308+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T12:31:09.9290038+05:30 | Information | Lifecycle | Window created.
+2026-09-02T12:31:09.9490904+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T12:31:14.1947454+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 245 MB.
+2026-09-02T12:31:16.4638051+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T12:31:17.7977740+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: True.
+2026-09-02T12:31:17.8008977+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 3 ms. Unhandled: 0. Unobserved: 0.
+2026-09-02T12:31:30.3130069+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: C:\Users\SuryaElayaperumal\AppData\Local\Packages\HybridTearDown_ph1m9x8skttmg\LocalState\evidence.log
+2026-09-02T12:31:30.3390342+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T12:31:30.3452033+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 81 MB.
+2026-09-02T12:31:30.7934341+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T12:31:31.1142501+05:30 | Information | Lifecycle | Window created.
+2026-09-02T12:31:31.1363864+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T12:31:35.3444543+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 247 MB.
+2026-09-02T12:31:35.8001161+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T12:31:37.3685233+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: True.
+2026-09-02T12:31:37.3714351+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 3 ms. Unhandled: 0. Unobserved: 0.
+2026-09-02T12:31:47.5453782+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: C:\Users\SuryaElayaperumal\AppData\Local\Packages\HybridTearDown_ph1m9x8skttmg\LocalState\evidence.log
+2026-09-02T12:31:47.5632892+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T12:31:47.5686819+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 82 MB.
+2026-09-02T12:31:47.9768579+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T12:31:48.2845604+05:30 | Information | Lifecycle | Window created.
+2026-09-02T12:31:48.3054473+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T12:31:52.5801165+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 246 MB.
+2026-09-02T12:31:52.7757658+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T12:31:53.5864394+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: True.
+2026-09-02T12:31:53.5891452+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 3 ms. Unhandled: 0. Unobserved: 0.
+2026-09-02T12:32:02.1770620+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: C:\Users\SuryaElayaperumal\AppData\Local\Packages\HybridTearDown_ph1m9x8skttmg\LocalState\evidence.log
+2026-09-02T12:32:02.1970555+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T12:32:02.2031688+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 81 MB.
+2026-09-02T12:32:02.6319066+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T12:32:02.9348961+05:30 | Information | Lifecycle | Window created.
+2026-09-02T12:32:02.9662991+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T12:32:07.2081862+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 244 MB.
+2026-09-02T12:32:11.0980523+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T12:32:12.2025988+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 248 MB.
+2026-09-02T12:32:12.6501661+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: True.
+2026-09-02T12:32:12.6511914+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 1 ms. Unhandled: 0. Unobserved: 0.

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HybridTearDown.NativePage"
+             Title="Native screen">
+    <Grid>
+        <VerticalStackLayout Padding="28" Spacing="18" VerticalOptions="Center">
+            <Label Text="Native MAUI screen"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   TextColor="{StaticResource Ink}" />
+            <Label Text="The BlazorWebView has been removed from the window. Return to create a fresh host, then repeat while watching debug output and memory."
+                   FontSize="16"
+                   TextColor="{StaticResource Ink}" />
+                 <Label x:Name="EvidencePathLabel"
+                     FontSize="13"
+                     TextColor="{StaticResource Ink}" />
+            <Button Text="Return to Blazor"
+                    Clicked="OnReturnClicked"
+                    AutomationId="ReturnToBlazorButton" />
+            <Button Text="Memory report" Clicked="OnMemoryReportClicked" />
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

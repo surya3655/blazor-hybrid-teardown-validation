@@ -1,0 +1,321 @@
+2026-09-02T12:00:46.1484304+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: C:\Users\SuryaElayaperumal\AppData\Local\Packages\HybridTearDown_ph1m9x8skttmg\LocalState\evidence.log
+2026-09-02T12:00:46.1695085+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T12:00:46.1753687+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 80 MB.
+2026-09-02T12:00:46.5954805+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T12:00:46.8835425+05:30 | Information | Lifecycle | Window created.
+2026-09-02T12:00:46.8980899+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T12:00:51.1713971+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 241 MB.
+2026-09-02T12:00:56.1808438+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 241 MB.
+2026-09-02T12:01:01.1850583+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 239 MB.
+2026-09-02T12:01:03.3052439+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T12:01:06.1735045+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 245 MB.
+2026-09-02T12:01:06.6477681+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 1.
+2026-09-02T12:01:06.6638537+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:01:06.6832892+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:01:06.6868164+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 31. Module reference live: True. WebView destroyed first: True.
+2026-09-02T12:01:06.6940908+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 31 calls.
+2026-09-02T12:01:06.6949801+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 7 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T12:01:07.8275276+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 1.
+2026-09-02T12:01:07.8306799+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 2.
+2026-09-02T12:01:07.8319300+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:01:09.0576823+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T12:01:11.1824662+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 2. GC heap: 4 MB. Working set: 258 MB.
+2026-09-02T12:01:11.8498931+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 2.
+2026-09-02T12:01:11.8516206+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:01:11.8576966+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:01:11.8592148+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 26. Module reference live: True. WebView destroyed first: True.
+2026-09-02T12:01:11.8609375+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 26 calls.
+2026-09-02T12:01:11.8614088+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 1 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T12:01:13.1539404+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 2.
+2026-09-02T12:01:13.1555996+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 3.
+2026-09-02T12:01:13.1569579+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:01:14.0687490+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T12:01:16.1766189+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 3. GC heap: 8 MB. Working set: 266 MB.
+2026-09-02T12:01:17.6790485+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 3.
+2026-09-02T12:01:17.6822204+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:01:17.7109179+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:01:17.7139128+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 34. Module reference live: True. WebView destroyed first: True.
+2026-09-02T12:01:17.7158017+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 34 calls.
+2026-09-02T12:01:17.7175120+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 1 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T12:01:18.6123921+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 3.
+2026-09-02T12:01:18.6143591+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 4.
+2026-09-02T12:01:18.6154948+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:01:19.8154461+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T12:01:21.1863638+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 4. GC heap: 6 MB. Working set: 266 MB.
+2026-09-02T12:01:22.7881166+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 4.
+2026-09-02T12:01:22.7897283+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:01:22.7993074+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:01:22.8008453+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 28. Module reference live: True. WebView destroyed first: True.
+2026-09-02T12:01:22.8055415+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 28 calls.
+2026-09-02T12:01:22.8071763+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 4 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T12:01:23.6265716+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 4.
+2026-09-02T12:01:23.6282915+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 5.
+2026-09-02T12:01:23.6294668+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:01:24.6792145+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T12:01:26.1824624+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 5. GC heap: 8 MB. Working set: 271 MB.
+2026-09-02T12:01:27.9474333+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 5.
+2026-09-02T12:01:27.9494761+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:01:27.9643586+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:01:27.9674436+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 30. Module reference live: True. WebView destroyed first: True.
+2026-09-02T12:01:27.9717735+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 30 calls.
+2026-09-02T12:01:27.9732803+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 4 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T12:01:28.8193377+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 5.
+2026-09-02T12:01:28.8210729+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 6.
+2026-09-02T12:01:28.8218618+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:01:29.8557263+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T12:01:31.1796673+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 6. GC heap: 5 MB. Working set: 271 MB.
+2026-09-02T12:01:32.5901180+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 6.
+2026-09-02T12:01:32.5934854+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:01:32.6067868+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:01:32.6102877+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 26. Module reference live: True. WebView destroyed first: True.
+2026-09-02T12:01:32.6135212+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 26 calls.
+2026-09-02T12:01:32.6141046+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 3 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T12:01:33.6751152+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 6.
+2026-09-02T12:01:33.6768262+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 7.
+2026-09-02T12:01:33.6787601+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:01:34.7412954+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T12:01:36.1849304+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 7. GC heap: 9 MB. Working set: 273 MB.
+2026-09-02T12:01:37.7056426+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 7.
+2026-09-02T12:01:37.7072881+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:01:37.7224664+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:01:37.7257246+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 28. Module reference live: True. WebView destroyed first: True.
+2026-09-02T12:01:37.7294072+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 28 calls.
+2026-09-02T12:01:37.7312739+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 3 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T12:01:38.4905862+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 7.
+2026-09-02T12:01:38.4918490+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 8.
+2026-09-02T12:01:38.4924614+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:01:39.4709044+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T12:01:41.1834299+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 8. GC heap: 8 MB. Working set: 273 MB.
+2026-09-02T12:01:42.7215793+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 8.
+2026-09-02T12:01:42.7239159+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:01:42.7309122+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:01:42.7318175+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 30. Module reference live: True. WebView destroyed first: True.
+2026-09-02T12:01:42.7331453+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 30 calls.
+2026-09-02T12:01:42.7335895+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 1 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T12:01:43.8743441+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 8.
+2026-09-02T12:01:43.8752229+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 9.
+2026-09-02T12:01:43.8756629+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:01:45.0211090+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T12:01:46.1799843+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 9. GC heap: 8 MB. Working set: 273 MB.
+2026-09-02T12:01:47.5876329+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 9.
+2026-09-02T12:01:47.5892211+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:01:47.5978380+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:01:47.5991987+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 24. Module reference live: True. WebView destroyed first: True.
+2026-09-02T12:01:47.6008363+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 24 calls.
+2026-09-02T12:01:47.6014204+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 1 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T12:01:48.4491898+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 9.
+2026-09-02T12:01:48.4505414+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 10.
+2026-09-02T12:01:48.4515018+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:01:49.7572098+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T12:01:51.1712111+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 10. GC heap: 12 MB. Working set: 276 MB.
+2026-09-02T12:01:53.9150348+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 10.
+2026-09-02T12:01:53.9164356+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:01:53.9265235+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:01:53.9287811+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 39. Module reference live: True. WebView destroyed first: True.
+2026-09-02T12:01:53.9315710+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 39 calls.
+2026-09-02T12:01:53.9333117+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 2 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T12:01:54.6736469+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 10.
+2026-09-02T12:01:54.6753496+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 11.
+2026-09-02T12:01:54.6769360+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:01:56.1768970+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 11. GC heap: 15 MB. Working set: 283 MB.
+2026-09-02T12:01:59.3184041+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall entered. Call state: not started. WebView destroyed first: False.
+2026-09-02T12:01:59.3202546+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-02T12:01:59.3213331+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall returned after 2 ms. Was in flight at disposal: False. Module disposed cleanly: False.
+2026-09-02T12:01:59.3885453+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T12:02:01.1860469+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 11. GC heap: 16 MB. Working set: 284 MB.
+2026-09-02T12:02:01.3633043+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 11.
+2026-09-02T12:02:01.3652579+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:02:01.3722064+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:02:01.3762568+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 8. WebView destroyed first: True.
+2026-09-02T12:02:01.3950282+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 8 ticks.
+2026-09-02T12:02:01.3957734+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 18 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T12:02:02.3695255+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 11.
+2026-09-02T12:02:02.3705090+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 12.
+2026-09-02T12:02:02.3710423+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:02:05.3065563+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T12:02:06.1724403+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 12. GC heap: 21 MB. Working set: 287 MB.
+2026-09-02T12:02:10.1874510+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 12.
+2026-09-02T12:02:10.1891791+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:02:10.2019682+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:02:10.2038076+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 19. WebView destroyed first: True.
+2026-09-02T12:02:10.2071584+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 19 ticks.
+2026-09-02T12:02:10.2091868+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 3 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T12:02:11.1765221+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 12. GC heap: 16 MB. Working set: 285 MB.
+2026-09-02T12:02:11.1847916+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 12.
+2026-09-02T12:02:11.1859424+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 13.
+2026-09-02T12:02:11.1866445+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:02:12.8751284+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T12:02:16.1778738+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 13. GC heap: 19 MB. Working set: 288 MB.
+2026-09-02T12:02:16.6526199+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 13.
+2026-09-02T12:02:16.6542111+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:02:16.6642880+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:02:16.6654537+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 15. WebView destroyed first: True.
+2026-09-02T12:02:16.6669338+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 15 ticks.
+2026-09-02T12:02:16.6673820+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 1 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T12:02:17.9872528+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 13.
+2026-09-02T12:02:17.9887490+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 14.
+2026-09-02T12:02:17.9893895+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:02:19.2530657+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T12:02:21.1835076+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 14. GC heap: 22 MB. Working set: 293 MB.
+2026-09-02T12:02:24.6708964+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 14.
+2026-09-02T12:02:24.6726475+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:02:24.6873655+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:02:24.6897927+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 21. WebView destroyed first: True.
+2026-09-02T12:02:24.6936857+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 21 ticks.
+2026-09-02T12:02:24.6961889+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 3 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T12:02:26.0829932+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 14.
+2026-09-02T12:02:26.0847419+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 15.
+2026-09-02T12:02:26.0859331+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:02:26.1781879+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 15. GC heap: 23 MB. Working set: 293 MB.
+2026-09-02T12:02:27.1770543+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T12:02:30.5873962+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 15.
+2026-09-02T12:02:30.5891824+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:02:30.6006002+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:02:30.6028947+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 14. WebView destroyed first: True.
+2026-09-02T12:02:30.6056700+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 14 ticks.
+2026-09-02T12:02:30.6077339+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 2 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T12:02:31.1723383+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 15. GC heap: 26 MB. Working set: 298 MB.
+2026-09-02T12:02:31.8591224+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 15.
+2026-09-02T12:02:31.8606628+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 16.
+2026-09-02T12:02:31.8613087+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:02:32.9025860+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T12:02:36.1725591+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 16. GC heap: 11 MB. Working set: 300 MB.
+2026-09-02T12:02:36.9958422+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 16.
+2026-09-02T12:02:36.9979192+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:02:37.0178079+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:02:37.0202168+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 16. WebView destroyed first: True.
+2026-09-02T12:02:37.0261914+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 16 ticks.
+2026-09-02T12:02:37.0281374+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 5 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T12:02:38.2418010+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 16.
+2026-09-02T12:02:38.2428117+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 17.
+2026-09-02T12:02:38.2439984+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:02:39.2535620+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T12:02:41.1709895+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 17. GC heap: 14 MB. Working set: 302 MB.
+2026-09-02T12:02:43.3453179+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 17.
+2026-09-02T12:02:43.3470511+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:02:43.3566350+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:02:43.3594649+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 16. WebView destroyed first: True.
+2026-09-02T12:02:43.3638665+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 16 ticks.
+2026-09-02T12:02:43.3654301+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 4 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T12:02:44.3559133+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 17.
+2026-09-02T12:02:44.3578686+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 18.
+2026-09-02T12:02:44.3591981+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:02:45.5828596+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T12:02:46.1756613+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 18. GC heap: 18 MB. Working set: 304 MB.
+2026-09-02T12:02:49.6356254+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 18.
+2026-09-02T12:02:49.6374585+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:02:49.6497890+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:02:49.6518222+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 16. WebView destroyed first: True.
+2026-09-02T12:02:49.6547154+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 16 ticks.
+2026-09-02T12:02:49.6559288+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 2 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T12:02:51.0179456+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 18.
+2026-09-02T12:02:51.0192698+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 19.
+2026-09-02T12:02:51.0200283+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:02:51.1794907+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 19. GC heap: 19 MB. Working set: 305 MB.
+2026-09-02T12:02:52.1609618+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T12:02:55.8973898+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 19.
+2026-09-02T12:02:55.8982891+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:02:55.9036955+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:02:55.9045643+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 15. WebView destroyed first: True.
+2026-09-02T12:02:55.9150530+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 15 ticks.
+2026-09-02T12:02:55.9163067+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 10 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T12:02:56.1815847+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 19. GC heap: 9 MB. Working set: 301 MB.
+2026-09-02T12:02:56.9454933+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 19.
+2026-09-02T12:02:56.9463359+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 20.
+2026-09-02T12:02:56.9467631+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:02:58.2784563+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T12:03:01.1760316+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 20. GC heap: 12 MB. Working set: 298 MB.
+2026-09-02T12:03:02.7790393+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 20.
+2026-09-02T12:03:02.7812068+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:03:02.7927189+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:03:02.7946146+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 18. WebView destroyed first: True.
+2026-09-02T12:03:02.7961535+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 18 ticks.
+2026-09-02T12:03:02.7966179+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 1 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T12:03:03.8832662+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 20.
+2026-09-02T12:03:03.8845843+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 21.
+2026-09-02T12:03:03.8857851+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:03:06.1861615+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 21. GC heap: 8 MB. Working set: 303 MB.
+2026-09-02T12:03:07.3522453+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 21.
+2026-09-02T12:03:07.3531605+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:03:07.3644471+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:03:07.3685115+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 9 callbacks.
+2026-09-02T12:03:08.2884813+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 21.
+2026-09-02T12:03:08.2894685+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 22.
+2026-09-02T12:03:08.2901946+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:03:11.1719298+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 22. GC heap: 12 MB. Working set: 304 MB.
+2026-09-02T12:03:11.9947630+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 22.
+2026-09-02T12:03:11.9957152+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:03:12.0026016+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:03:12.0046282+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 10 callbacks.
+2026-09-02T12:03:12.9209003+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 22.
+2026-09-02T12:03:12.9217503+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 23.
+2026-09-02T12:03:12.9222102+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:03:16.1795042+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 23. GC heap: 15 MB. Working set: 302 MB.
+2026-09-02T12:03:16.4498864+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 23.
+2026-09-02T12:03:16.4514672+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:03:16.4621170+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:03:16.4650771+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 11 callbacks.
+2026-09-02T12:03:17.4162528+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 23.
+2026-09-02T12:03:17.4170260+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 24.
+2026-09-02T12:03:17.4175604+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:03:21.1801239+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 24. GC heap: 10 MB. Working set: 300 MB.
+2026-09-02T12:03:22.0585700+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 24.
+2026-09-02T12:03:22.0607868+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:03:22.0740080+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:03:22.0788455+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 17 callbacks.
+2026-09-02T12:03:23.0321210+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 24.
+2026-09-02T12:03:23.0331137+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 25.
+2026-09-02T12:03:23.0336705+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:03:26.0330082+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 25.
+2026-09-02T12:03:26.0342527+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:03:26.0441625+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:03:26.0469607+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 9 callbacks.
+2026-09-02T12:03:26.1823677+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 25. GC heap: 12 MB. Working set: 302 MB.
+2026-09-02T12:03:26.9443777+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 25.
+2026-09-02T12:03:26.9452858+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 26.
+2026-09-02T12:03:26.9458820+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:03:31.1853062+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 26. GC heap: 15 MB. Working set: 305 MB.
+2026-09-02T12:03:32.8734171+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 26.
+2026-09-02T12:03:32.8758796+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:03:32.8849108+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:03:32.8886270+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 21 callbacks.
+2026-09-02T12:03:34.1689760+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 26.
+2026-09-02T12:03:34.1703452+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 27.
+2026-09-02T12:03:34.1712846+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:03:36.1726702+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 27. GC heap: 10 MB. Working set: 300 MB.
+2026-09-02T12:03:37.9457657+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 27.
+2026-09-02T12:03:37.9477469+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:03:37.9618842+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:03:37.9646515+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 12 callbacks.
+2026-09-02T12:03:39.0271568+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 27.
+2026-09-02T12:03:39.0284933+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 28.
+2026-09-02T12:03:39.0293495+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:03:41.1778305+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 28. GC heap: 14 MB. Working set: 298 MB.
+2026-09-02T12:03:44.5355636+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 28.
+2026-09-02T12:03:44.5377143+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:03:44.5512823+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:03:44.5549913+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 18 callbacks.
+2026-09-02T12:03:45.5605460+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 28.
+2026-09-02T12:03:45.5614304+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 29.
+2026-09-02T12:03:45.5622077+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:03:46.1767027+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 29. GC heap: 14 MB. Working set: 297 MB.
+2026-09-02T12:03:51.1807621+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 29. GC heap: 15 MB. Working set: 297 MB.
+2026-09-02T12:03:51.3299756+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 29.
+2026-09-02T12:03:51.3308594+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:03:51.3422368+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:03:51.3465872+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 21 callbacks.
+2026-09-02T12:03:53.2488391+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 29.
+2026-09-02T12:03:53.2501425+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 30.
+2026-09-02T12:03:53.2509267+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:03:56.1818228+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 30. GC heap: 9 MB. Working set: 299 MB.
+2026-09-02T12:03:58.2110967+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 30.
+2026-09-02T12:03:58.2129307+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T12:03:58.2257369+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T12:03:58.2304143+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 16 callbacks.
+2026-09-02T12:04:00.1063862+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 30.
+2026-09-02T12:04:00.1076275+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 31.
+2026-09-02T12:04:00.1087887+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T12:04:01.1835440+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 31. GC heap: 12 MB. Working set: 309 MB.
+2026-09-02T12:04:06.1793029+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 31. GC heap: 12 MB. Working set: 308 MB.
+2026-09-02T12:04:06.2709120+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: False.
+2026-09-02T12:04:06.2723741+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 1 ms. Unhandled: 0. Unobserved: 0.

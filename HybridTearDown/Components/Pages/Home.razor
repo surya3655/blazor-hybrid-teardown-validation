@@ -1,0 +1,21 @@
+@page "/"
+
+<PageTitle>Hybrid teardown validation</PageTitle>
+
+<section class="intro">
+    <p class="eyebrow">ASP.NET Core #68813</p>
+    <h1>Teardown under pressure</h1>
+    <p class="lede">Open a scenario, leave it while work is active, and watch the debug output for cleanup records, hangs, or <code>JSDisconnectedException</code>.</p>
+</section>
+
+<section class="scenario-grid" aria-label="Available scenarios">
+    <a class="scenario" href="module-loop"><strong>Module loop</strong><span>Owns a module and invokes it repeatedly.</span></a>
+    <a class="scenario" href="slow-call"><strong>Slow call</strong><span>Starts JavaScript work without awaiting it.</span></a>
+    <a class="scenario" href="timer"><strong>Timer</strong><span>Keeps .NET and JavaScript activity firing.</span></a>
+    <a class="scenario" href="callback"><strong>JS callback</strong><span>Registers a .NET target called by JavaScript.</span></a>
+</section>
+
+<section class="test-strip">
+    <strong>High-value cycle</strong>
+    <span>Enter scenario → leave mid-flight → native screen → return → repeat → background/close.</span>
+</section>

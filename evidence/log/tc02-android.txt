@@ -1,0 +1,874 @@
+2026-09-01T10:57:48.8805438+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T10:57:51.0854695+05:30 | Information | Lifecycle | Window created.
+2026-09-01T10:57:51.1030405+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T10:57:56.6698849+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 11 calls.
+2026-09-01T10:57:58.0521261+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 3 callbacks.
+2026-09-01T10:57:58.6368316+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 6 calls.
+2026-09-01T10:57:59.1373070+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T10:58:00.4847344+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 5 ticks.
+2026-09-01T10:58:00.9288426+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 1 callbacks.
+2026-09-01T10:58:01.9177015+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 5 calls.
+2026-09-01T10:58:02.3115520+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T10:58:03.0360859+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T10:58:03.6657858+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 3 callbacks.
+2026-09-01T10:58:04.5003768+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 4 calls.
+2026-09-01T10:58:04.9357221+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T10:58:06.0895021+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T10:58:06.6799727+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 2 callbacks.
+2026-09-01T10:58:07.4847244+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 4 calls.
+2026-09-01T10:58:08.0419621+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T10:58:08.6961283+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 1 ticks.
+2026-09-01T10:58:09.8527001+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 5 callbacks.
+2026-09-01T10:58:10.8267055+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 9 calls.
+2026-09-01T10:58:11.2320705+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T10:58:13.8361914+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T10:58:13.9476697+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 9 ticks.
+2026-09-01T10:58:15.6303107+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T10:58:18.4974839+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 8 calls.
+2026-09-01T10:59:15.3974765+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T10:59:18.0397907+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T10:59:18.0978695+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T10:59:19.7378633+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T11:04:37.1144768+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T11:04:39.3049091+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T11:04:42.3619506+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 12 calls.
+2026-09-01T11:04:42.8975574+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T11:04:43.8465632+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 3 ticks.
+2026-09-01T11:04:44.7498186+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 5 calls.
+2026-09-01T11:04:45.2113002+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T11:56:57.9306775+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T11:57:00.0995022+05:30 | Information | Lifecycle | Window created.
+2026-09-01T11:57:00.1080682+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T11:59:06.1463761+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T11:59:06.2399822+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T11:59:08.8739769+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T11:59:12.6068865+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 4 calls.
+2026-09-01T11:59:13.7521425+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T11:59:15.5277026+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T11:59:15.5820904+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T11:59:17.9561364+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T11:59:21.0112283+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T11:59:22.2944311+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T11:59:22.3995292+05:30 | Error | UnobservedTaskException | Unobserved task exception.
+System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.)
+ ---> Microsoft.JSInterop.JSDisconnectedException: JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.
+   at Microsoft.AspNetCore.Components.WebView.Services.WebViewJSRuntime.BeginInvokeJS(JSInvocationInfo& invocationInfo)
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, JSCallType callType, CancellationToken cancellationToken, Object[] args)
+   at Microsoft.JSInterop.Implementation.JSObjectReference.InvokeAsync[TValue](String identifier, CancellationToken cancellationToken, Object[] args)
+   at Microsoft.JSInterop.JSObjectReferenceExtensions.InvokeVoidAsync(IJSObjectReference jsObjectReference, String identifier, CancellationToken cancellationToken, Object[] args)
+   at HybridTearDown.Components.Pages.TimerStress.RunTimerAsync(CancellationToken cancellationToken) in D:\ValidationSample\HybridTearDown\Components\Pages\TimerStress.razor:line 38
+   at HybridTearDown.Components.Pages.TimerStress.DisposeAsync() in D:\ValidationSample\HybridTearDown\Components\Pages\TimerStress.razor:line 53
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.<>c__DisplayClass108_0.<<Dispose>g__HandleAsyncExceptions|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.WebView.IpcSender.<>c__DisplayClass12_0.<NotifyUnhandledException>b__1()
+   at Microsoft.Maui.Dispatching.DispatcherExtensions.<>c__DisplayClass1_0.<DispatchAsync>b__0() in /_/src/Core/src/Dispatching/DispatcherExtensions.cs:line 48
+   at Microsoft.Maui.Dispatching.DispatcherExtensions.<>c__DisplayClass0_0`1.<DispatchAsync>b__0() in /_/src/Core/src/Dispatching/DispatcherExtensions.cs:line 27
+   --- End of inner exception stack trace ---
+2026-09-01T11:59:29.5343472+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T11:59:30.4784100+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 3 ticks.
+2026-09-01T11:59:32.4778902+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T11:59:33.9889036+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T12:01:43.2887960+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T12:01:43.3602131+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 78 ticks.
+2026-09-01T12:01:45.4828942+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T12:01:49.3033503+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 5 calls.
+2026-09-01T12:01:50.5314101+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T12:01:52.3784890+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T12:01:56.1265054+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T12:01:56.2056845+05:30 | Error | UnobservedTaskException | Unobserved task exception.
+System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.)
+ ---> Microsoft.JSInterop.JSDisconnectedException: JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, JSCallType callType, CancellationToken cancellationToken, Object[] args)
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, JSCallType callType, Object[] args)
+   at Microsoft.JSInterop.JSObjectReferenceExtensions.InvokeVoidAsync(IJSObjectReference jsObjectReference, String identifier, Object[] args)
+   at HybridTearDown.Components.Pages.CallbackStress.DisposeAsync() in D:\ValidationSample\HybridTearDown\Components\Pages\CallbackStress.razor:line 45
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.<>c__DisplayClass108_0.<<Dispose>g__HandleAsyncExceptions|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.WebView.IpcSender.<>c__DisplayClass12_0.<NotifyUnhandledException>b__1()
+   at Microsoft.Maui.Dispatching.DispatcherExtensions.<>c__DisplayClass0_0`1.<DispatchAsync>b__0() in /_/src/Core/src/Dispatching/DispatcherExtensions.cs:line 27
+   --- End of inner exception stack trace ---
+2026-09-01T12:01:56.2070161+05:30 | Error | UnobservedTaskException | Unobserved task exception.
+System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.)
+ ---> Microsoft.JSInterop.JSDisconnectedException: JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.
+   at Microsoft.AspNetCore.Components.WebView.Services.WebViewJSRuntime.BeginInvokeJS(JSInvocationInfo& invocationInfo)
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, JSCallType callType, CancellationToken cancellationToken, Object[] args)
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, JSCallType callType, Object[] args)
+   at Microsoft.JSInterop.JSObjectReferenceExtensions.InvokeVoidAsync(IJSObjectReference jsObjectReference, String identifier, Object[] args)
+   at HybridTearDown.Components.Pages.CallbackStress.DisposeAsync() in D:\ValidationSample\HybridTearDown\Components\Pages\CallbackStress.razor:line 45
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.<>c__DisplayClass108_0.<<Dispose>g__HandleAsyncExceptions|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.WebView.IpcSender.<>c__DisplayClass12_0.<NotifyUnhandledException>b__1()
+   at Microsoft.Maui.Dispatching.DispatcherExtensions.<>c__DisplayClass0_0`1.<DispatchAsync>b__0() in /_/src/Core/src/Dispatching/DispatcherExtensions.cs:line 27
+   --- End of inner exception stack trace ---
+2026-09-01T12:01:56.2508847+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 5 ticks.
+2026-09-01T12:01:58.0598382+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T12:02:03.8587509+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T12:02:03.9277932+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T12:02:05.6511755+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T12:02:09.8804405+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T12:02:11.8780141+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T12:02:11.9203074+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T12:02:14.2362016+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T12:20:16.9318753+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T12:20:18.6416829+05:30 | Information | Lifecycle | Window created.
+2026-09-01T12:20:18.6496119+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T12:22:09.9598381+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T12:22:11.2168959+05:30 | Information | Lifecycle | Window created.
+2026-09-01T12:22:11.2261993+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T12:23:49.1669501+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T12:23:49.2665579+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 29 calls.
+2026-09-01T12:23:50.5135303+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T12:23:54.4311884+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T12:23:57.5541343+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T12:23:57.6235905+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T12:23:58.4672714+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T12:24:07.2409776+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T12:24:07.3800602+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 28 ticks.
+2026-09-01T12:24:09.6364534+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T12:24:14.3202769+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T12:24:16.5217381+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T12:24:35.7117904+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 19 calls.
+2026-09-01T12:24:36.3734804+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T12:24:40.0246500+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T12:24:40.1065771+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 14 ticks.
+2026-09-01T12:24:43.7890373+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T12:34:53.7142836+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T12:34:54.8640241+05:30 | Information | Lifecycle | Window created.
+2026-09-01T12:34:54.8708016+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T12:39:04.1978437+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T12:39:05.1178676+05:30 | Information | Lifecycle | Window created.
+2026-09-01T12:39:05.1263708+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T12:39:26.8296414+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-01T12:39:26.8657474+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-01T12:39:27.0896460+05:30 | Information | Lifecycle | Window destroying.
+2026-09-01T12:39:41.6588363+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T12:39:42.6896784+05:30 | Information | Lifecycle | Window created.
+2026-09-01T12:39:42.7098216+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T13:01:17.9818072+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T13:01:18.0840507+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 2001 callbacks.
+2026-09-01T13:01:21.3558338+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T13:02:02.4427361+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 11 calls.
+2026-09-01T13:02:03.4084584+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T13:02:04.4238502+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 3 ticks.
+2026-09-01T13:02:05.6777186+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 6 callbacks.
+2026-09-01T13:02:10.0147186+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 29 calls.
+2026-09-01T13:02:11.0097824+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T13:02:13.3367461+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 8 ticks.
+2026-09-01T13:02:30.0529650+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 82 callbacks.
+2026-09-01T13:02:30.6247719+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 5 calls.
+2026-09-01T13:02:32.8107426+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 7 calls.
+2026-09-01T13:02:33.4729382+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T13:02:34.5586192+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T14:23:31.8219628+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-01T14:23:37.7222328+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-01T14:24:14.0218498+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T14:24:26.5222295+05:30 | Information | Lifecycle | Window created.
+2026-09-01T14:24:26.5653464+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T14:24:37.3764775+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-01T14:24:37.4067915+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-01T14:24:41.1353710+05:30 | Information | Lifecycle | Window resumed.
+2026-09-01T14:24:41.1427642+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T14:24:52.7300781+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-01T14:24:52.7396761+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-01T14:24:53.1098964+05:30 | Information | Lifecycle | Window destroying.
+2026-09-01T14:24:54.2883611+05:30 | Information | Lifecycle | Window created.
+2026-09-01T14:24:54.2898353+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T14:25:05.5365454+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 14 calls.
+2026-09-01T14:25:07.0978584+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T14:25:26.1348592+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T14:25:27.7752032+05:30 | Information | Lifecycle | Window created.
+2026-09-01T14:25:27.7970443+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T14:25:51.3514287+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 23 calls.
+2026-09-01T14:25:53.1210765+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T14:25:55.2499288+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T14:25:58.2004301+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 11 ticks.
+2026-09-01T14:26:00.5755924+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 11 callbacks.
+2026-09-01T14:26:01.4406428+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 4 calls.
+2026-09-01T14:26:03.2154495+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T14:26:04.2976132+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T14:26:05.2623942+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 3 ticks.
+2026-09-01T14:26:06.5651981+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 6 callbacks.
+2026-09-01T14:26:07.2802756+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 7 calls.
+2026-09-01T14:26:07.9771442+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T14:26:09.2109765+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T14:26:09.8642739+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 3 callbacks.
+2026-09-01T14:26:10.4154381+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 5 calls.
+2026-09-01T14:26:11.0784170+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T14:26:12.0837605+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 3 ticks.
+2026-09-01T14:26:12.9451389+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 4 callbacks.
+2026-09-01T14:26:13.5849924+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 6 calls.
+2026-09-01T14:26:14.3389346+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T14:26:15.3161821+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 3 ticks.
+2026-09-01T14:26:16.0447707+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 3 callbacks.
+2026-09-01T14:26:16.5766888+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 5 calls.
+2026-09-01T14:26:18.7366380+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T14:26:19.5664553+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 3 callbacks.
+2026-09-01T14:26:22.0185056+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 23 calls.
+2026-09-01T14:26:22.4822179+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T14:26:23.8262495+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 5 ticks.
+2026-09-01T14:35:53.4508110+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T14:35:55.1520726+05:30 | Information | Lifecycle | Window created.
+2026-09-01T14:35:55.1652899+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T14:36:44.4157798+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 157 calls.
+2026-09-01T14:36:46.2090109+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T14:36:47.3991581+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T14:36:48.8455854+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 6 callbacks.
+2026-09-01T14:36:49.8121956+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T14:36:51.5671507+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T14:36:52.9028459+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 10 calls.
+2026-09-01T14:36:53.7018107+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T14:36:54.6010415+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T14:36:55.3669779+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 3 callbacks.
+2026-09-01T14:36:56.4151649+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 9 calls.
+2026-09-01T14:36:56.9613512+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T14:36:57.8764989+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 3 ticks.
+2026-09-01T14:37:02.5790354+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 22 callbacks.
+2026-09-01T14:37:03.1427201+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 3 calls.
+2026-09-01T14:37:03.8452526+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T14:37:05.5680225+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 6 ticks.
+2026-09-01T14:37:06.2299718+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 5 calls.
+2026-09-01T14:37:07.1713685+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T14:37:09.0810894+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T14:37:10.3162006+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T14:37:11.2470914+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 7 calls.
+2026-09-01T14:37:12.3169421+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 4 callbacks.
+2026-09-01T14:37:12.8684347+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 1 ticks.
+2026-09-01T14:37:13.4052249+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T14:37:14.0741310+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 3 calls.
+2026-09-01T14:37:15.1303737+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 4 callbacks.
+2026-09-01T14:37:15.5236393+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T14:37:16.9162885+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 5 ticks.
+2026-09-01T14:37:18.7034975+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T14:37:19.7475175+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T14:37:20.3859828+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 2 callbacks.
+2026-09-01T14:37:20.9528762+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 4 calls.
+2026-09-01T14:37:21.4849339+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T14:43:43.2724410+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T14:43:44.7728043+05:30 | Information | Lifecycle | Window created.
+2026-09-01T14:43:44.7807126+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T14:51:47.0655095+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T14:51:48.7009016+05:30 | Information | Lifecycle | Window created.
+2026-09-01T14:51:48.7230422+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T14:59:42.3174742+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T14:59:43.8781912+05:30 | Information | Lifecycle | Window created.
+2026-09-01T14:59:43.8877547+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T15:01:01.0603564+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 216 calls.
+2026-09-01T15:01:09.7160319+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T15:01:20.7274719+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T15:44:29.7350410+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T15:44:39.0501368+05:30 | Information | Lifecycle | Window created.
+2026-09-01T15:44:39.0641628+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T15:46:03.2026607+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 99 calls.
+2026-09-01T15:46:08.8528728+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T15:46:17.2286936+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T15:46:24.5560125+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 27 ticks.
+2026-09-01T15:46:31.5991159+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 34 callbacks.
+2026-09-01T15:46:37.3476252+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 37 calls.
+2026-09-01T15:46:38.5835034+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T15:46:47.2803787+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T15:46:52.3631776+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 19 ticks.
+2026-09-01T15:46:57.0995846+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 22 callbacks.
+2026-09-01T15:46:58.3259133+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T15:47:08.4760246+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T15:47:23.0602870+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 58 ticks.
+2026-09-01T15:47:43.3096484+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 100 callbacks.
+2026-09-01T15:48:00.6800142+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 119 calls.
+2026-09-01T15:48:06.7545681+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T15:48:11.7343197+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 19 ticks.
+2026-09-01T15:48:18.3197514+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 32 callbacks.
+2026-09-01T15:48:26.6627885+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 23 calls.
+2026-09-01T15:48:30.1328617+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T15:48:33.8016188+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T15:48:35.9038630+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 7 ticks.
+2026-09-01T15:48:45.1072864+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 45 callbacks.
+2026-09-01T15:48:52.9004968+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 50 calls.
+2026-09-01T15:48:55.1836078+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T15:49:05.7517585+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T15:49:25.7802168+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 79 ticks.
+2026-09-01T15:49:35.1291486+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 46 callbacks.
+2026-09-01T15:49:39.7990530+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 31 calls.
+2026-09-01T15:49:41.1854342+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T15:50:07.5509896+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: completed.
+2026-09-01T16:17:57.6923794+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T16:18:00.2971710+05:30 | Information | Lifecycle | Window created.
+2026-09-01T16:18:00.3063764+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T16:26:29.1608226+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T16:26:30.4046354+05:30 | Information | Lifecycle | Window created.
+2026-09-01T16:26:30.4144742+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T16:27:24.5621115+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-01T16:27:25.1656269+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-01T16:28:21.1770929+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T16:28:22.1123337+05:30 | Information | Lifecycle | Window created.
+2026-09-01T16:28:22.1215655+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T16:30:56.5930175+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 41 calls.
+2026-09-01T16:30:57.9479586+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T16:30:59.2352239+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 12 calls.
+2026-09-01T16:31:00.3969882+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:31:00.5250253+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T16:31:02.2289216+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:31:05.3787492+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 5 ticks.
+2026-09-01T16:31:06.3829770+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:31:06.4340239+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 9 calls.
+2026-09-01T16:31:07.7286732+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:31:51.7957348+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T16:31:52.6415003+05:30 | Information | Lifecycle | Window created.
+2026-09-01T16:31:52.6483230+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T16:32:21.2841952+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T16:32:22.1412298+05:30 | Information | Lifecycle | Window created.
+2026-09-01T16:32:22.1482842+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T16:33:12.9239118+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 15 ticks.
+2026-09-01T16:33:14.7189336+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 16 calls.
+2026-09-01T16:33:15.9355269+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:33:16.0323327+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T16:33:17.0767267+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:33:21.2807988+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 8 ticks.
+2026-09-01T16:33:22.8474115+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T16:33:24.7222904+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:33:24.8088952+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 7 ticks.
+2026-09-01T16:33:26.3792958+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:33:31.2151637+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 9 ticks.
+2026-09-01T16:33:34.1794347+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:33:34.2764262+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 14 callbacks.
+2026-09-01T16:33:35.3469454+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:33:45.1812069+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 26 ticks.
+2026-09-01T16:33:51.5276185+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:33:51.6861597+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 40 calls.
+2026-09-01T16:33:53.2523705+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:33:56.0978071+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 5 ticks.
+2026-09-01T16:33:57.0033125+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 8 calls.
+2026-09-01T16:33:57.5388867+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:33:57.6184473+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:33:58.9512168+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:34:00.8796854+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 6 calls.
+2026-09-01T16:34:01.8048915+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 3 ticks.
+2026-09-01T16:34:03.9324115+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 18 calls.
+2026-09-01T16:34:04.5148890+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:34:04.6059750+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:34:05.4574344+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:34:07.7455847+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 4 calls.
+2026-09-01T16:34:08.7838763+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T16:34:09.8520162+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 10 calls.
+2026-09-01T16:34:10.4313548+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:34:10.5173834+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:34:12.0836337+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:34:16.0578583+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 9 calls.
+2026-09-01T16:34:16.8439175+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 3 ticks.
+2026-09-01T16:34:17.3959743+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 5 calls.
+2026-09-01T16:34:17.8448786+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:34:17.8931271+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 1 ticks.
+2026-09-01T16:34:19.0141644+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:34:21.9278893+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:34:22.8647231+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 9 calls.
+2026-09-01T16:34:23.5514734+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:34:23.6303475+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:34:37.5744354+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:34:40.3090872+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 6 calls.
+2026-09-01T16:34:41.3601875+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T16:34:41.9698202+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 6 calls.
+2026-09-01T16:34:42.5967063+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:34:42.6606426+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:34:43.6067137+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:34:46.0190864+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:34:46.6821311+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 6 calls.
+2026-09-01T16:34:47.2675295+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:34:47.3194362+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:34:48.8771166+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:34:50.8451584+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:34:53.8447389+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T16:34:54.5101175+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:34:54.5606086+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:34:55.4216165+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:34:58.6576665+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 6 ticks.
+2026-09-01T16:34:59.4269968+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T16:35:00.9282237+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:35:00.9763152+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 5 ticks.
+2026-09-01T16:35:02.7121838+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:35:06.3982364+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T16:35:07.0908802+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:35:12.3356842+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T16:35:13.0803264+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:35:13.1280204+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:35:14.2219407+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:35:16.8468358+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T16:35:17.7946003+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T16:35:19.1763536+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:35:19.2443247+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 5 ticks.
+2026-09-01T16:35:20.4066724+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:35:22.5852102+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:35:23.7985304+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T16:35:25.5122318+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T16:35:27.3453822+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:35:27.4029921+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 7 ticks.
+2026-09-01T16:35:38.2493558+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:35:40.6335865+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T16:35:43.4128316+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:35:43.4581065+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 10 ticks.
+2026-09-01T16:35:50.6252724+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:35:53.3094953+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:35:54.3105287+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T16:36:01.0597971+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 26 ticks.
+2026-09-01T16:36:01.7610923+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T16:36:03.5769351+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 6 ticks.
+2026-09-01T16:36:04.4477232+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T16:36:05.9592885+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:36:06.0027828+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 6 ticks.
+2026-09-01T16:36:12.9919574+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:36:14.9311089+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:36:23.4497534+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-01T16:36:24.5298562+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:36:24.5838618+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T16:36:30.1189326+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:36:44.3848747+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 6 ticks.
+2026-09-01T16:36:46.3142966+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 9 callbacks.
+2026-09-01T16:36:47.7312384+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:36:47.7873685+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 5 ticks.
+2026-09-01T16:36:51.4265601+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:37:23.8970605+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:37:23.9493101+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:37:25.6647977+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:37:52.5373425+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:37:52.5829335+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 7 ticks.
+2026-09-01T16:37:56.3241426+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:38:26.6189387+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:38:27.7528320+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 5 callbacks.
+2026-09-01T16:38:28.6656104+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 3 ticks.
+2026-09-01T16:38:29.9467751+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 6 callbacks.
+2026-09-01T16:38:30.5643898+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:38:30.6110388+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:38:33.2844515+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:38:36.0616915+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 4 callbacks.
+2026-09-01T16:38:36.9267056+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 3 ticks.
+2026-09-01T16:38:38.1310345+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 5 callbacks.
+2026-09-01T16:38:44.7302124+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 26 ticks.
+2026-09-01T16:38:46.7956839+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 10 callbacks.
+2026-09-01T16:38:49.2119143+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:38:49.2618214+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 9 ticks.
+2026-09-01T16:38:50.8904886+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:38:54.5439297+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 3 ticks.
+2026-09-01T16:38:55.5178551+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 4 callbacks.
+2026-09-01T16:38:56.1095262+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:38:56.1658686+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:38:57.4242975+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:38:59.6136685+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T16:39:00.7126900+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 5 callbacks.
+2026-09-01T16:39:01.2098812+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:39:01.2479473+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 1 ticks.
+2026-09-01T16:39:02.4320414+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:39:12.8805145+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T16:39:14.8311325+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 9 callbacks.
+2026-09-01T16:39:15.4766687+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T16:39:15.5230231+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 2 ticks.
+2026-09-01T16:39:32.0475509+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T16:39:34.7667238+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 4 ticks.
+2026-09-01T16:39:38.0312106+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 16 callbacks.
+2026-09-01T16:39:50.4701398+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 49 ticks.
+2026-09-01T16:39:52.1313240+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 8 callbacks.
+2026-09-01T18:11:19.4407956+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T18:11:22.6248309+05:30 | Information | Lifecycle | Window created.
+2026-09-01T18:11:22.6324181+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T18:17:22.5434191+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-01T18:17:22.6429991+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 5 calls.
+2026-09-01T18:17:23.9359043+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-01T18:23:40.2446738+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-01T18:23:42.1075202+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-01T18:23:43.3807739+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 6 calls.
+2026-09-01T18:25:34.7666138+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T18:25:35.5590330+05:30 | Information | Lifecycle | Window created.
+2026-09-01T18:25:35.5690594+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T18:28:39.6839201+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T18:28:40.6186165+05:30 | Information | Lifecycle | Window created.
+2026-09-01T18:28:40.6275185+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T18:35:31.9888603+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T18:35:32.8805646+05:30 | Information | Lifecycle | Window created.
+2026-09-01T18:35:32.8978823+05:30 | Information | Lifecycle | Window activated.
+2026-09-01T18:40:20.3574181+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-01T18:40:21.2437470+05:30 | Information | Lifecycle | Window created.
+2026-09-01T18:40:21.2488996+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T09:16:30.2872082+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-02T09:16:30.7798517+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T09:16:36.2015462+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T09:16:50.3279079+05:30 | Information | Lifecycle | Window created.
+2026-09-02T09:16:50.3381402+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T09:20:38.4015327+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T09:20:50.1512008+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall entered. Call state: in flight. WebView destroyed first: False.
+2026-09-02T09:20:50.1861368+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-02T09:20:50.1881188+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall returned after 35 ms. Was in flight at disposal: True. Module disposed cleanly: True.
+2026-09-02T09:20:50.2339172+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:20:51.1868876+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 9. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:20:51.2081151+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 9 calls.
+2026-09-02T09:20:51.2088405+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 21 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:20:53.0532750+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:42:48.6517989+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-02T09:42:48.9592187+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T09:42:48.9884030+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 194 MB.
+2026-09-02T09:42:51.9123318+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T09:42:53.9591506+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 248 MB.
+2026-09-02T09:42:58.9634421+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 283 MB.
+2026-09-02T09:43:00.6764695+05:30 | Information | Lifecycle | Window created.
+2026-09-02T09:43:00.7081372+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T09:43:03.9618120+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 326 MB.
+2026-09-02T09:43:08.9605290+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 352 MB.
+2026-09-02T09:43:13.9641257+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 354 MB.
+2026-09-02T09:43:18.9639779+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 354 MB.
+2026-09-02T09:43:23.9616459+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 354 MB.
+2026-09-02T09:43:25.0616028+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:43:28.9936871+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 357 MB.
+2026-09-02T09:43:32.1547795+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 30. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:43:32.2551943+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 30 calls.
+2026-09-02T09:43:32.2595361+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 99 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:43:32.4374127+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:43:33.9614630+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 362 MB.
+2026-09-02T09:43:36.1795667+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 15. WebView destroyed first: False.
+2026-09-02T09:43:36.3608044+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 15 ticks.
+2026-09-02T09:43:36.3637596+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 182 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:43:36.4918140+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:43:38.9626364+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 363 MB.
+2026-09-02T09:43:41.4170914+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 26. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:43:41.5023457+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 26 calls.
+2026-09-02T09:43:41.5030198+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 85 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:43:41.5705439+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:43:43.9628815+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 365 MB.
+2026-09-02T09:43:46.3192243+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 19. WebView destroyed first: False.
+2026-09-02T09:43:46.6866366+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 19 ticks.
+2026-09-02T09:43:46.6879191+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 367 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:43:46.6936790+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:43:48.9625702+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 370 MB.
+2026-09-02T09:43:51.4726622+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 24. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:43:51.5198289+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 24 calls.
+2026-09-02T09:43:51.5326739+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 47 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:43:51.7571579+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:43:53.2000117+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 6. WebView destroyed first: False.
+2026-09-02T09:43:53.2311022+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 6 ticks.
+2026-09-02T09:43:53.2316173+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 31 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:43:53.3183550+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:43:53.9611583+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 370 MB.
+2026-09-02T09:43:57.9304466+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 22. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:43:57.9698033+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 22 calls.
+2026-09-02T09:43:57.9724786+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 39 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:43:58.1792952+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:43:58.9679944+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 371 MB.
+2026-09-02T09:44:02.1888850+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 15. WebView destroyed first: False.
+2026-09-02T09:44:02.3078495+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 15 ticks.
+2026-09-02T09:44:02.3177377+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 117 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:44:02.3579423+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:44:03.9616260+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 367 MB.
+2026-09-02T09:44:06.8402167+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 24. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:44:06.9048666+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 24 calls.
+2026-09-02T09:44:06.9118687+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 64 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:44:07.0134086+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:44:08.6724980+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 6. WebView destroyed first: False.
+2026-09-02T09:44:08.7574636+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 6 ticks.
+2026-09-02T09:44:08.7600319+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 84 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:44:08.9305508+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:44:08.9657817+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 368 MB.
+2026-09-02T09:44:12.5874208+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 19. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:44:12.6633837+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 19 calls.
+2026-09-02T09:44:12.6702756+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 75 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:44:12.7613597+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:44:13.9641854+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 373 MB.
+2026-09-02T09:44:18.5852060+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 23. WebView destroyed first: False.
+2026-09-02T09:44:18.7763652+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 23 ticks.
+2026-09-02T09:44:18.7771007+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 191 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:44:18.8511053+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:44:18.9615261+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 373 MB.
+2026-09-02T09:44:23.6197101+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 24. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:44:23.7093409+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 24 calls.
+2026-09-02T09:44:23.7103149+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 89 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:44:23.8312385+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:44:23.9611659+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 373 MB.
+2026-09-02T09:44:27.5234899+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 15. WebView destroyed first: False.
+2026-09-02T09:44:27.6828390+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 15 ticks.
+2026-09-02T09:44:27.6848930+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 159 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:44:27.7770854+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:44:28.9681537+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 373 MB.
+2026-09-02T09:44:32.5407471+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 24. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:44:32.6051592+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 24 calls.
+2026-09-02T09:44:32.6054795+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 64 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:44:32.7420612+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:44:33.9639871+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 374 MB.
+2026-09-02T09:44:36.4075331+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 15. WebView destroyed first: False.
+2026-09-02T09:44:36.4567316+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 15 ticks.
+2026-09-02T09:44:36.4577897+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 49 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:44:36.4680552+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:44:38.9616537+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 371 MB.
+2026-09-02T09:44:41.1670666+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 25. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:44:41.2478029+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 25 calls.
+2026-09-02T09:44:41.2499222+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 80 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:44:41.2891644+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:44:43.9608550+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 369 MB.
+2026-09-02T09:44:45.0801489+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 15. WebView destroyed first: False.
+2026-09-02T09:44:45.2174344+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 15 ticks.
+2026-09-02T09:44:45.2233705+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 137 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T09:44:45.2428205+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T09:44:48.9654937+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 368 MB.
+2026-09-02T09:44:50.2863283+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 31. Module reference live: True. WebView destroyed first: False.
+2026-09-02T09:44:50.3104109+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 31 calls.
+2026-09-02T09:44:50.3166258+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 24 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T09:44:50.4051614+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T09:44:53.9629926+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 369 MB.
+2026-09-02T10:23:47.5716359+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-02T10:23:48.1645239+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T10:23:48.3919064+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 195 MB.
+2026-09-02T10:23:53.1821865+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 216 MB.
+2026-09-02T10:23:54.4847432+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T10:23:58.1819908+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 250 MB.
+2026-09-02T10:24:03.1843088+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 291 MB.
+2026-09-02T10:24:03.5109994+05:30 | Information | Lifecycle | Window created.
+2026-09-02T10:24:03.5298355+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T10:24:08.1863717+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 323 MB.
+2026-09-02T10:24:13.1824320+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 350 MB.
+2026-09-02T10:24:18.1814256+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 353 MB.
+2026-09-02T10:24:18.2432850+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T10:24:22.6891231+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 1.
+2026-09-02T10:24:22.7059509+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:24:22.7681209+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:24:22.8549011+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 29. Module reference live: True. WebView destroyed first: True.
+2026-09-02T10:24:22.8619308+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 29 calls.
+2026-09-02T10:24:22.8622800+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 7 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T10:24:23.1811891+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 361 MB.
+2026-09-02T10:24:24.3896733+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 1.
+2026-09-02T10:24:24.3956252+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 2.
+2026-09-02T10:24:24.3961831+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:24:27.7093795+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T10:24:28.1815208+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 2. GC heap: 5 MB. Working set: 366 MB.
+2026-09-02T10:24:31.1699430+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 2.
+2026-09-02T10:24:31.1785117+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:24:31.2112609+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:24:31.2709417+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall entered. Call state: in flight. WebView destroyed first: True.
+2026-09-02T10:24:31.2720942+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-02T10:24:31.2723054+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall returned after 1 ms. Was in flight at disposal: True. Module disposed cleanly: True.
+2026-09-02T10:24:33.1805060+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 2. GC heap: 5 MB. Working set: 368 MB.
+2026-09-02T10:24:33.6694835+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 2.
+2026-09-02T10:24:33.6738438+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 3.
+2026-09-02T10:24:33.6741501+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:24:35.7696990+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T10:24:38.1823319+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 3. GC heap: 2 MB. Working set: 368 MB.
+2026-09-02T10:24:38.2688472+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 3.
+2026-09-02T10:24:38.2711316+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:24:38.2985542+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:24:38.3833112+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 10. WebView destroyed first: True.
+2026-09-02T10:24:38.3942289+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 10 ticks.
+2026-09-02T10:24:38.3960709+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 11 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T10:24:39.4050097+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 3.
+2026-09-02T10:24:39.4241312+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 4.
+2026-09-02T10:24:39.4267128+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:24:43.1822565+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 4. GC heap: 3 MB. Working set: 372 MB.
+2026-09-02T10:24:43.9983398+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 4.
+2026-09-02T10:24:43.9995605+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:24:44.0165886+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:24:44.0854747+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 3 callbacks.
+2026-09-02T10:24:45.5625467+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 4.
+2026-09-02T10:24:45.5696832+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 5.
+2026-09-02T10:24:45.5724358+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:24:48.1895040+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 5. GC heap: 4 MB. Working set: 378 MB.
+2026-09-02T10:24:48.4671926+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T10:24:49.4509853+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 5.
+2026-09-02T10:24:49.4521501+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:24:49.4728437+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:24:49.5462423+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 8. Module reference live: True. WebView destroyed first: True.
+2026-09-02T10:24:49.5479594+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 8 calls.
+2026-09-02T10:24:49.5486596+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 1 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T10:24:51.1719175+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 5.
+2026-09-02T10:24:51.1910716+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 6.
+2026-09-02T10:24:51.2078130+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:24:53.1817952+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 6. GC heap: 6 MB. Working set: 383 MB.
+2026-09-02T10:24:54.3884395+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T10:24:56.7173544+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 6.
+2026-09-02T10:24:56.7229144+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:24:56.7401018+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:24:56.8106510+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall entered. Call state: in flight. WebView destroyed first: True.
+2026-09-02T10:24:56.8153807+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-02T10:24:56.8157505+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall returned after 4 ms. Was in flight at disposal: True. Module disposed cleanly: True.
+2026-09-02T10:24:57.9380037+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 6.
+2026-09-02T10:24:57.9397692+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 7.
+2026-09-02T10:24:57.9431368+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:24:58.1827778+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 7. GC heap: 6 MB. Working set: 383 MB.
+2026-09-02T10:25:00.2499352+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T10:25:03.1795442+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 7. GC heap: 7 MB. Working set: 385 MB.
+2026-09-02T10:25:04.2746738+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 7.
+2026-09-02T10:25:04.2753143+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:25:04.2899814+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:25:04.3547040+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 16. WebView destroyed first: True.
+2026-09-02T10:25:04.3921140+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 16 ticks.
+2026-09-02T10:25:04.3923379+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 37 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T10:25:05.5525435+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 7.
+2026-09-02T10:25:05.5732955+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 8.
+2026-09-02T10:25:05.5769762+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:25:08.1787020+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 8. GC heap: 4 MB. Working set: 386 MB.
+2026-09-02T10:25:08.2378174+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 8.
+2026-09-02T10:25:08.2424105+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:25:08.2787127+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:25:08.3724106+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 4 callbacks.
+2026-09-02T10:25:09.4403583+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 8.
+2026-09-02T10:25:09.4422015+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 9.
+2026-09-02T10:25:09.4425659+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:25:12.4310783+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T10:25:13.1790189+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 9. GC heap: 5 MB. Working set: 388 MB.
+2026-09-02T10:25:18.1093190+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 9.
+2026-09-02T10:25:18.1122657+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:25:18.1415286+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:25:18.1794089+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 9. GC heap: 6 MB. Working set: 388 MB.
+2026-09-02T10:25:18.2066357+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 38. Module reference live: True. WebView destroyed first: True.
+2026-09-02T10:25:18.2088680+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 38 calls.
+2026-09-02T10:25:18.2113339+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 2 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T10:25:19.5140158+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 9.
+2026-09-02T10:25:19.5195975+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 10.
+2026-09-02T10:25:19.5199790+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:25:21.9697917+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T10:25:23.1835328+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 10. GC heap: 7 MB. Working set: 390 MB.
+2026-09-02T10:25:25.2856765+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 10.
+2026-09-02T10:25:25.2868263+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:25:25.3111438+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:25:25.3744896+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall entered. Call state: in flight. WebView destroyed first: True.
+2026-09-02T10:25:25.3768992+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-02T10:25:25.3776785+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall returned after 2 ms. Was in flight at disposal: True. Module disposed cleanly: True.
+2026-09-02T10:25:26.3447668+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 10.
+2026-09-02T10:25:26.3452958+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 11.
+2026-09-02T10:25:26.3517323+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:25:27.6890185+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T10:25:28.1806529+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 11. GC heap: 8 MB. Working set: 393 MB.
+2026-09-02T10:25:31.0496679+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 11.
+2026-09-02T10:25:31.0512062+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:25:31.0615618+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:25:31.1297023+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 13. WebView destroyed first: True.
+2026-09-02T10:25:31.1553592+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 13 ticks.
+2026-09-02T10:25:31.1558828+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 25 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T10:25:32.0283977+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 11.
+2026-09-02T10:25:32.0288725+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 12.
+2026-09-02T10:25:32.0290475+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:25:33.1828996+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 12. GC heap: 5 MB. Working set: 391 MB.
+2026-09-02T10:25:36.7175371+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 12.
+2026-09-02T10:25:36.7183975+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:25:36.7410102+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:25:36.8361485+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 16 callbacks.
+2026-09-02T10:25:37.7332722+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 12.
+2026-09-02T10:25:37.7531284+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 13.
+2026-09-02T10:25:37.7548623+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:25:38.1822920+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 13. GC heap: 6 MB. Working set: 395 MB.
+2026-09-02T10:25:39.0028045+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T10:25:43.1821889+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 13. GC heap: 6 MB. Working set: 396 MB.
+2026-09-02T10:25:43.8900952+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 13.
+2026-09-02T10:25:43.8937150+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:25:43.9485320+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:25:44.0111403+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 27. Module reference live: True. WebView destroyed first: True.
+2026-09-02T10:25:44.0122827+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 27 calls.
+2026-09-02T10:25:44.0133695+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 1 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T10:25:44.9675521+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 13.
+2026-09-02T10:25:44.9703056+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 14.
+2026-09-02T10:25:44.9704755+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:25:47.7267663+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T10:25:48.1842005+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 14. GC heap: 8 MB. Working set: 395 MB.
+2026-09-02T10:25:50.8849755+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 14.
+2026-09-02T10:25:50.8913345+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:25:50.9120519+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:25:50.9794075+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall entered. Call state: in flight. WebView destroyed first: True.
+2026-09-02T10:25:50.9828674+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-02T10:25:50.9851280+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall returned after 3 ms. Was in flight at disposal: True. Module disposed cleanly: True.
+2026-09-02T10:25:51.9195247+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 14.
+2026-09-02T10:25:51.9201011+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 15.
+2026-09-02T10:25:51.9203208+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:25:53.1846654+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 15. GC heap: 9 MB. Working set: 390 MB.
+2026-09-02T10:25:53.4691973+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T10:25:57.7495903+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 15.
+2026-09-02T10:25:57.7519836+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:25:57.7632245+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:25:57.8138190+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 17. WebView destroyed first: True.
+2026-09-02T10:25:57.8284345+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 17 ticks.
+2026-09-02T10:25:57.8286341+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 14 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T10:25:58.1831597+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 15. GC heap: 9 MB. Working set: 391 MB.
+2026-09-02T10:25:58.8788163+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 15.
+2026-09-02T10:25:58.8810210+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 16.
+2026-09-02T10:25:58.8816164+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:26:03.1849543+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 16. GC heap: 10 MB. Working set: 398 MB.
+2026-09-02T10:26:03.6880355+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 16.
+2026-09-02T10:26:03.7760940+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:26:03.8217881+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:26:03.8921196+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 14 callbacks.
+2026-09-02T10:26:04.6667229+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 16.
+2026-09-02T10:26:04.6674466+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 17.
+2026-09-02T10:26:04.6677951+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:26:06.3416991+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T10:26:08.1805539+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 17. GC heap: 7 MB. Working set: 396 MB.
+2026-09-02T10:26:09.3666983+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 17.
+2026-09-02T10:26:09.3679245+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:26:09.3843824+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:26:09.4325095+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 25. Module reference live: True. WebView destroyed first: True.
+2026-09-02T10:26:09.4355013+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 25 calls.
+2026-09-02T10:26:09.4369685+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 2 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T10:26:11.8134124+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 17.
+2026-09-02T10:26:11.8145803+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 18.
+2026-09-02T10:26:11.8167148+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:26:13.1823736+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 18. GC heap: 8 MB. Working set: 397 MB.
+2026-09-02T10:26:14.0415856+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T10:26:16.4878658+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 18.
+2026-09-02T10:26:16.4906599+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:26:16.5114914+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:26:16.5493819+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall entered. Call state: in flight. WebView destroyed first: True.
+2026-09-02T10:26:16.5516825+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-02T10:26:16.5525022+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall returned after 2 ms. Was in flight at disposal: True. Module disposed cleanly: True.
+2026-09-02T10:26:17.6548833+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 18.
+2026-09-02T10:26:17.6564797+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 19.
+2026-09-02T10:26:17.6567656+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:26:18.1799022+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 19. GC heap: 9 MB. Working set: 400 MB.
+2026-09-02T10:26:18.9067157+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T10:26:21.5740935+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 19.
+2026-09-02T10:26:21.5762574+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:26:21.5924956+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:26:21.6623167+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 11. WebView destroyed first: True.
+2026-09-02T10:26:21.6803693+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 11 ticks.
+2026-09-02T10:26:21.6809342+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 18 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T10:26:22.5358632+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 19.
+2026-09-02T10:26:22.5374641+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 20.
+2026-09-02T10:26:22.5413474+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:26:23.1782817+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 20. GC heap: 11 MB. Working set: 403 MB.
+2026-09-02T10:26:28.1815596+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 20. GC heap: 11 MB. Working set: 402 MB.
+2026-09-02T10:26:28.5672252+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 20.
+2026-09-02T10:26:28.5686379+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:26:28.5933499+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:26:28.6505736+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 17 callbacks.
+2026-09-02T10:26:29.6847422+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 20.
+2026-09-02T10:26:29.6883657+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 21.
+2026-09-02T10:26:29.6928506+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:26:31.1430319+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T10:26:33.1826754+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 21. GC heap: 7 MB. Working set: 404 MB.
+2026-09-02T10:26:36.0672074+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 21.
+2026-09-02T10:26:36.0737773+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:26:36.0898215+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:26:36.1494717+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 29. Module reference live: True. WebView destroyed first: True.
+2026-09-02T10:26:36.1707869+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 29 calls.
+2026-09-02T10:26:36.1710464+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 21 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T10:26:37.7351638+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 21.
+2026-09-02T10:26:37.7413008+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 22.
+2026-09-02T10:26:37.7417877+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:26:38.1803212+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 22. GC heap: 8 MB. Working set: 406 MB.
+2026-09-02T10:26:39.9655384+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T10:26:42.1911492+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 22.
+2026-09-02T10:26:42.1919545+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:26:42.2035848+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:26:42.2433359+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall entered. Call state: in flight. WebView destroyed first: True.
+2026-09-02T10:26:42.2443435+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: in flight.
+2026-09-02T10:26:42.2444913+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall returned after 1 ms. Was in flight at disposal: True. Module disposed cleanly: True.
+2026-09-02T10:26:43.1111262+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 22.
+2026-09-02T10:26:43.1115783+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 23.
+2026-09-02T10:26:43.1116874+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:26:43.1799535+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 23. GC heap: 9 MB. Working set: 407 MB.
+2026-09-02T10:26:44.2781379+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T10:26:47.3529293+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 23.
+2026-09-02T10:26:47.3560235+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:26:47.3821019+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:26:47.4215526+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 12. WebView destroyed first: True.
+2026-09-02T10:26:47.4409903+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 12 ticks.
+2026-09-02T10:26:47.4417052+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 19 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T10:26:48.1818705+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 23. GC heap: 10 MB. Working set: 409 MB.
+2026-09-02T10:26:48.3112491+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 23.
+2026-09-02T10:26:48.3219667+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 24.
+2026-09-02T10:26:48.3239706+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:26:51.9032871+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 24.
+2026-09-02T10:26:51.9043520+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T10:26:51.9338925+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T10:26:51.9750258+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 10 callbacks.
+2026-09-02T10:26:53.1664803+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 24.
+2026-09-02T10:26:53.1676950+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 25.
+2026-09-02T10:26:53.1747217+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T10:26:53.2123724+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 25. GC heap: 11 MB. Working set: 412 MB.
+2026-09-02T10:26:58.1834576+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 25. GC heap: 12 MB. Working set: 413 MB.

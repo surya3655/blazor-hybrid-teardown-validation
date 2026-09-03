@@ -1,0 +1,17 @@
+@inherits LayoutComponentBase
+
+<div class="app-shell">
+    <nav class="stress-nav" aria-label="Stress scenarios">
+        <NavLink href="" Match="NavLinkMatch.All">Overview</NavLink>
+        <NavLink href="module-loop">Module loop</NavLink>
+        <NavLink href="slow-call">Slow call</NavLink>
+        <NavLink href="timer">Timer</NavLink>
+        <NavLink href="callback">JS callback</NavLink>
+        <NavLink href="callback-uncaught">JS callback (uncaught)</NavLink>
+
+        <span class="runtime-evidence" title="Current .NET runtime">@EvidenceLog.RuntimeDescription</span>
+    </nav>
+    <main>
+        @Body
+    </main>
+</div>

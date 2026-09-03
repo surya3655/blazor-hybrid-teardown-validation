@@ -1,0 +1,177 @@
+2026-09-02T16:30:19.3746787+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-02T16:30:19.4041100+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T16:30:19.4265047+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 195 MB.
+2026-09-02T16:30:19.9367450+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T16:30:20.8218400+05:30 | Information | Lifecycle | Window created.
+2026-09-02T16:30:20.8408692+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T16:30:24.4108133+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 356 MB.
+2026-09-02T16:30:29.4055092+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 356 MB.
+2026-09-02T16:30:34.4061002+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 356 MB.
+2026-09-02T16:30:35.8250799+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T16:30:39.4070831+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 363 MB.
+2026-09-02T16:30:44.4074569+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 368 MB.
+2026-09-02T16:30:46.3555029+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T16:30:47.0889294+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T16:30:49.4068319+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 363 MB.
+2026-09-02T16:30:54.4049794+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 364 MB.
+2026-09-02T16:31:16.7847007+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: /data/user/0/com.microsoft.validation.hybridteardown/files/evidence.log
+2026-09-02T16:31:16.8177006+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T16:31:16.8540847+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 195 MB.
+2026-09-02T16:31:17.5563786+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T16:31:18.3685618+05:30 | Information | Lifecycle | Window created.
+2026-09-02T16:31:18.3800763+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T16:31:21.8183808+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 355 MB.
+2026-09-02T16:31:26.8244664+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 355 MB.
+2026-09-02T16:31:31.8200658+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 355 MB.
+2026-09-02T16:31:36.8218834+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 355 MB.
+2026-09-02T16:31:41.8227111+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 355 MB.
+2026-09-02T16:31:46.8212727+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 355 MB.
+2026-09-02T16:31:51.8221024+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 351 MB.
+2026-09-02T16:31:56.8220929+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 351 MB.
+2026-09-02T16:32:01.8238800+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 350 MB.
+2026-09-02T16:32:06.8232879+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 349 MB.
+2026-09-02T16:32:11.8210019+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 350 MB.
+2026-09-02T16:32:16.8190249+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 350 MB.
+2026-09-02T16:32:21.8204170+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 351 MB.
+2026-09-02T16:32:26.8198387+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 351 MB.
+2026-09-02T16:32:28.8335663+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T16:32:31.8310097+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 356 MB.
+2026-09-02T16:32:36.8171820+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 361 MB.
+2026-09-02T16:32:40.3359553+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T16:32:40.8597052+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T16:32:41.8200410+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 362 MB.
+2026-09-02T16:32:46.8209134+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 363 MB.
+2026-09-02T16:32:51.8231097+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 359 MB.
+2026-09-02T16:32:56.8186923+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 360 MB.
+2026-09-02T16:33:01.8203330+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 361 MB.
+2026-09-02T16:33:06.8243881+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 360 MB.
+2026-09-02T16:33:11.8223897+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 360 MB.
+2026-09-02T16:33:16.8230821+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 360 MB.
+2026-09-02T16:33:21.8230821+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 362 MB.
+2026-09-02T16:33:26.8199440+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 362 MB.
+2026-09-02T16:33:31.8212680+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 361 MB.
+2026-09-02T16:33:36.8215374+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 362 MB.
+2026-09-02T16:33:41.8236073+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 363 MB.
+2026-09-02T16:33:43.9295038+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T16:33:43.9411029+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T16:33:46.8246049+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 363 MB.
+2026-09-02T16:33:49.3969304+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 669. Module reference live: True. WebView destroyed first: False.
+2026-09-02T16:33:49.4610195+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 669 calls.
+2026-09-02T16:33:49.4613999+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 96 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T16:33:49.5134640+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T16:33:51.8244898+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 364 MB.
+2026-09-02T16:33:53.6085566+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 16. WebView destroyed first: False.
+2026-09-02T16:33:53.6917020+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 16 ticks.
+2026-09-02T16:33:53.6939721+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 83 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T16:33:53.6967656+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Module] ModuleLoop acquired JS module reference.
+2026-09-02T16:33:56.8241799+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 369 MB.
+2026-09-02T16:33:59.1207686+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop entered. Calls so far: 30. Module reference live: True. WebView destroyed first: False.
+2026-09-02T16:33:59.1544374+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Cleanup] ModuleLoop completed after 30 calls.
+2026-09-02T16:33:59.1567863+05:30 | Information | HybridTearDown.Components.Pages.ModuleLoop | [Dispose] ModuleLoop returned after 33 ms. Loop stopped: True. Module disposed cleanly: True.
+2026-09-02T16:34:01.8031225+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [SlowCall] Started 15-second operation. State: in flight.
+2026-09-02T16:34:01.8331591+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 370 MB.
+2026-09-02T16:34:03.3645820+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T16:34:04.3944013+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T16:34:06.8197595+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 370 MB.
+2026-09-02T16:34:11.8214933+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 369 MB.
+2026-09-02T16:34:16.8205751+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 369 MB.
+2026-09-02T16:34:21.8246356+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 369 MB.
+2026-09-02T16:34:26.8203726+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 366 MB.
+2026-09-02T16:34:31.8251797+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 367 MB.
+2026-09-02T16:34:36.8236427+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 370 MB.
+2026-09-02T16:34:41.8246986+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 370 MB.
+2026-09-02T16:34:46.8213382+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 370 MB.
+2026-09-02T16:34:51.8194316+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 366 MB.
+2026-09-02T16:34:56.8222351+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 366 MB.
+2026-09-02T16:35:01.8213367+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 366 MB.
+2026-09-02T16:35:05.6570246+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T16:35:05.6740152+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T16:35:06.8190048+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 367 MB.
+2026-09-02T16:35:08.9673177+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall entered. Call state: completed. WebView destroyed first: False.
+2026-09-02T16:35:09.0091156+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: completed.
+2026-09-02T16:35:09.0134832+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall returned after 41 ms. Was in flight at disposal: False. Module disposed cleanly: True.
+2026-09-02T16:35:09.1501941+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T16:35:11.8205105+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 369 MB.
+2026-09-02T16:35:12.2712527+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 12. WebView destroyed first: False.
+2026-09-02T16:35:12.3730097+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 12 ticks.
+2026-09-02T16:35:12.3743213+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 101 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T16:35:15.2016117+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall entered. Call state: not started. WebView destroyed first: False.
+2026-09-02T16:35:15.2018576+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-02T16:35:15.2019163+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall returned after 0 ms. Was in flight at disposal: False. Module disposed cleanly: False.
+2026-09-02T16:35:15.3767475+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T16:35:16.8273083+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 370 MB.
+2026-09-02T16:35:20.8712128+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T16:35:21.5347659+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T16:35:21.8233907+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 369 MB.
+2026-09-02T16:35:25.2682310+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T16:35:25.2819036+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T16:35:26.8220482+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 369 MB.
+2026-09-02T16:35:27.3389158+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 48. WebView destroyed first: False.
+2026-09-02T16:35:27.4720262+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 48 ticks.
+2026-09-02T16:35:27.4723652+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 133 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T16:35:28.1724810+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T16:35:31.8196107+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 370 MB.
+2026-09-02T16:35:36.8235523+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 370 MB.
+2026-09-02T16:35:41.8237083+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 368 MB.
+2026-09-02T16:35:45.5114468+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T16:35:46.2495287+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T16:35:46.8186015+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 369 MB.
+2026-09-02T16:35:51.8253222+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 369 MB.
+2026-09-02T16:35:56.8231190+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 369 MB.
+2026-09-02T16:36:01.8239122+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 369 MB.
+2026-09-02T16:36:06.8203428+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 369 MB.
+2026-09-02T16:36:11.8196592+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 369 MB.
+2026-09-02T16:36:16.8242247+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 369 MB.
+2026-09-02T16:36:21.8253849+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 370 MB.
+2026-09-02T16:36:26.8215533+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 2 MB. Working set: 370 MB.
+2026-09-02T16:36:31.8213396+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 368 MB.
+2026-09-02T16:36:36.8188503+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 368 MB.
+2026-09-02T16:36:41.8206073+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 368 MB.
+2026-09-02T16:36:46.8235992+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 368 MB.
+2026-09-02T16:36:51.8254005+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 368 MB.
+2026-09-02T16:36:55.1306026+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T16:36:55.1394308+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T16:36:56.8214626+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 368 MB.
+2026-09-02T16:36:59.9879626+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 365. WebView destroyed first: False.
+2026-09-02T16:37:00.0741446+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 365 ticks.
+2026-09-02T16:37:00.0749396+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 86 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T16:37:01.8213647+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 373 MB.
+2026-09-02T16:37:02.2730095+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 9 callbacks.
+2026-09-02T16:37:02.2781964+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T16:37:04.6255389+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 9. WebView destroyed first: False.
+2026-09-02T16:37:04.7251426+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 9 ticks.
+2026-09-02T16:37:04.7254349+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 99 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T16:37:06.8233684+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 373 MB.
+2026-09-02T16:37:11.8221355+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 371 MB.
+2026-09-02T16:37:16.8209314+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 5 MB. Working set: 375 MB.
+2026-09-02T16:37:19.7601380+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T16:37:20.4216158+05:30 | Information | Lifecycle | Window stopped/backgrounded.
+2026-09-02T16:37:21.8239538+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 375 MB.
+2026-09-02T16:37:26.8243967+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 375 MB.
+2026-09-02T16:37:31.8234640+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 370 MB.
+2026-09-02T16:37:36.8212691+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 369 MB.
+2026-09-02T16:37:41.8254482+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 369 MB.
+2026-09-02T16:37:46.8206173+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 369 MB.
+2026-09-02T16:37:51.8219307+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 369 MB.
+2026-09-02T16:37:56.8207983+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 369 MB.
+2026-09-02T16:38:01.8251055+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 369 MB.
+2026-09-02T16:38:06.8192207+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 369 MB.
+2026-09-02T16:38:11.8215929+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 370 MB.
+2026-09-02T16:38:16.8190431+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 370 MB.
+2026-09-02T16:38:21.8214334+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 6 MB. Working set: 370 MB.
+2026-09-02T16:38:24.3682781+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T16:38:24.3751900+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T16:38:26.7934766+05:30 | Information | HybridTearDown.Components.Pages.CallbackStress | [Cleanup] CallbackStress completed after 153 callbacks.
+2026-09-02T16:38:26.8189178+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 373 MB.
+2026-09-02T16:38:26.8889424+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T16:38:28.2421478+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 5. WebView destroyed first: False.
+2026-09-02T16:38:28.3880150+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 5 ticks.
+2026-09-02T16:38:28.3884875+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 145 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T16:38:29.9971734+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall entered. Call state: not started. WebView destroyed first: False.
+2026-09-02T16:38:30.0055570+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Cleanup] SlowCall completed. Call state: not started.
+2026-09-02T16:38:30.0157522+05:30 | Information | HybridTearDown.Components.Pages.SlowCall | [Dispose] SlowCall returned after 8 ms. Was in flight at disposal: False. Module disposed cleanly: False.
+2026-09-02T16:38:31.8208818+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 376 MB.
+2026-09-02T16:38:36.8193700+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 7 MB. Working set: 376 MB.
+2026-09-02T16:38:41.8201508+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 8 MB. Working set: 377 MB.
+2026-09-02T16:38:46.8213819+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 375 MB.
+2026-09-02T16:38:51.8233823+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 375 MB.
