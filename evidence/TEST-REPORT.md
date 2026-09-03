@@ -5,7 +5,7 @@
 - **Build:** .NET `11.0.0-preview.7.26381.103`, Debug configuration
 - **Platforms:** Windows / WebView2 and Android / Android WebView
 - **Harness:** [blazor-hybrid-teardown-validation](https://github.com/surya3655/blazor-hybrid-teardown-validation)
-- **Scope:** Hybrid (MAUI), Debug
+- **Scope:** Hybrid (MAUI), Debug.
 
 ## Verdict
 
@@ -50,6 +50,25 @@ in any case.
 
 Part B is the only scenario in this report where the operating system destroyed
 the WebView on its own timing rather than in response to a deliberate action.
+
+## Video evidence
+
+Screen recordings for the cases whose result cannot be read from a log alone —
+whether the UI stayed responsive, whether the app closed promptly, and whether a
+rotation actually occurred. Recordings are in
+[`evidence/video/`](https://github.com/surya3655/blazor-hybrid-teardown-validation/tree/main/evidence/video).
+
+TC01, TC03, TC05 and TC07 are fully covered by their logs: disposal ordering,
+durations and error counts are recorded there, and no visual confirmation adds
+to them.
+
+| Case | Platform | Shows | Recording |
+| --- | --- | --- | --- |
+| TC02 | Windows, Android | The native page replaces the host, and a working Blazor host is created on every return | [tc02.zip](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/video/tc02.zip) |
+| TC04 | Windows, Android | The app closes promptly while the 15-second call is still in flight | [tc04.zip](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/video/tc04.zip) |
+| TC06 | Android | The app resumes responsive after a 60-second background period | [tc06-android.zip](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/video/tc06-android.zip) |
+| TC08-A | Android | Rotation with the activity preserved: the counter continues and no duplicate work source appears | [tc08-A-android.zip](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/video/tc08-A-android.zip) |
+| TC08-B | Android | Rotation with the activity recreated: the host is rebuilt and usable after every rotation | [tc08-b-android.zip](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/video/tc08-b-android.zip) |
 
 ## Findings
 
