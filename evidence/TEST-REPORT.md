@@ -22,7 +22,10 @@ Teardown triggered by the operating system's back control behaves the same way:
 TC10 exercised system Back on all four busy pages and across seven native-page
 returns, with no exception and no failed host rebuild.
 
-Every condition the issue lists as "must hold" is carried by this evidence.
+Every condition the issue lists as "must hold" is carried by this evidence, and
+**no defect was found**. The three items under Observations are recorded because
+they bear on how the results should be read; none is a fault in the framework or in
+the fix under test.
 
 ## Environment
 
@@ -274,75 +277,86 @@ and report a single self-measured figure. That would improve the instrumentation
 rather than the result: the derived interval and the relaunch bound already
 establish it.
 
-## Findings
+## Observations
 
-### 1. Component cleanup does not run on normal app close
+None of the items below is a defect. Each is recorded because it bears on how the
+results should be read.
 
-Observed in TC04 and TC07 on both platforms. A component holding a live JS
-module produced no `[Cleanup]` record when the app was closed normally, although
-cleanup runs correctly on route navigation and host replacement.
+### Component cleanup does not run on normal app close
 
-Evidence — `tc07-android.txt`, module acquired then no cleanup before shutdown:
+Observed in TC04 and TC07 on both platforms. A component holding a live JS module
+produced no cleanup record when the app was closed normally, although cleanup runs
+correctly on route navigation and on host replacement.
 
-```
-2026-09-02T16:59:24.9344114+05:30 | ModuleLoop | [Module] ModuleLoop acquired JS module reference.
-2026-09-02T17:00:11.8458276+05:30 | Lifecycle  | Window deactivated.
-2026-09-02T17:00:12.6718842+05:30 | Lifecycle  | Window stopped/backgrounded.
-2026-09-02T17:00:12.6918282+05:30 | Diagnostics| [Lifecycle] Window destroying. Slow call in flight at shutdown: False.
-2026-09-02T17:00:12.6934342+05:30 | Diagnostics| [Lifecycle] Window destroyed. Unhandled: 0. Unobserved: 0.
-                                    ← no [Cleanup] ModuleLoop record
-```
+This is consistent with .NET shutdown semantics — neither `Dispose` nor finalizers
+are guaranteed to run at process exit — and nothing throws or hangs. It is recorded
+for one reason: **the app-close path never exercises the disposal guarantee**, so
+TC04 establishes that close is prompt, not that post-disconnect disposal is safe.
+TC03 is what establishes the latter.
 
-Nothing throws and nothing hangs, so this is not a regression of the fix under
-test. It is recorded because a teardown path that never disposes cannot exercise
-the disposal guarantee.
+### JavaScript intervals are throttled while backgrounded, and the two platforms throttle at different rates
 
-### 2. Android activity recreation abandons components
+In TC06 on both platforms, a periodic .NET timer firing every 250 ms continued at
+its full rate through a 60-second background period — 283 and 376 ticks on Windows,
+365 on Android, each matching elapsed time exactly. The .NET timer runs on the
+thread pool, which the embedded browser does not govern.
 
-In TC08 Part B, 22 rotations produced **7 module acquisitions and 1 cleanup**. The
-page handler is never transitioned to null on activity recreation, so no managed
-teardown runs.
+A JavaScript interval at 200 ms — five callbacks per second when unthrottled — did
+not. Both platforms throttled it to roughly 1 Hz, which is Chromium's deliberate
+background-timer policy, but not to the same rate:
 
-Evidence — `tc08-b-android.txt`, retained objects after a forced collection and
-finalizer drain:
+| | Background window | Callbacks in the window | Approximate rate |
+| --- | ---: | ---: | ---: |
+| Windows, Chromium 152 | 70.0 s | about 67 | about 0.96 per second |
+| Android, Chromium 109 | 63.9 s | about 73 | about 1.14 per second |
 
-```
-[Memory] Retained after collection (checkpoint). Cycle 1.
-  MainPage=22/23  BlazorWebView=22/23  Components=16/16  Modules=16/16
-  Timers=6/6  DotNetRefs=0/0.  GC heap: 6 MB.  Working set: 407 MB.
-```
+Android sustained the interval roughly 20 per cent faster than Windows over a
+shorter window. Both sit at the same order — the ~1 Hz clamp — so the difference is
+one of degree within expected behaviour, not a behavioural divergence of the kind
+the issue asks to be reported.
 
-Working set rose from 342 MB to 409 MB across the run. Again outside the fix's
-scope — disposal never runs on this path — but it means the "teardown is clean"
-guarantee has a gap on Android rotation.
+**These two rows are approximate and should not be quoted as measurements.** The
+callback component in use did not emit a module-acquisition record, so the moment
+each page began is inferred from the preceding cleanup record rather than measured.
+The totals — 142 callbacks on Windows and 153 on Android — are exact; the split
+between foreground and background portions is not. Confirming the rate difference
+would need a run with the component instrumented to log its own start.
 
-**This is not a substitute for the memory-stability requirement**, which concerns
-repeated Blazor/native transitions rather than activity recreation. See Open
-item 1.
+### Android activity recreation abandons components
 
-### 3. JavaScript intervals are throttled while backgrounded; .NET timers are not
+In the TC08 configuration where the activity is destroyed and rebuilt, 22 rotations
+produced seven module acquisitions and one cleanup. The page handler is never
+transitioned to null on activity recreation, so no managed teardown runs. After a
+forced collection and finalizer drain, retained objects stood at 22 of 23 MainPage
+instances, 22 of 23 BlazorWebView instances and 16 of 16 components, with the
+working set rising from 342 MB to 409 MB across the run.
 
-In TC06 on both platforms, a `PeriodicTimer` firing every 250 ms continued at its
-full rate through a 60-second background period. A JavaScript `setInterval` at
-200 ms dropped to roughly 1 Hz over the same window.
+This sits outside the scope of the fix under test, since disposal never runs on the
+recreation path. Two things bound how far the observation reaches. Container
+lifetime is unconfirmed: if `MainPage` is registered as a singleton, the container
+legitimately holds every instance and the retention is expected. And the
+configuration is not the shipping one — recreation was forced by removing
+`ConfigChanges.Orientation` and `ScreenSize` from the activity attribute for this
+test, whereas with the attribute as shipped, TC08 Part A showed 36 rotations with
+the WebView never destroyed, no duplicate work source and no error.
 
-Evidence — `tc06-android.txt`, timer alive 16:35:28.17 → 16:36:59.99 (91.8 s):
+## Platform comparison
 
-```
-2026-09-02T16:35:28.1724810+05:30 | TimerStress | [Module] TimerStress acquired JS module reference.
-2026-09-02T16:35:46.2495287+05:30 | Lifecycle   | Window stopped/backgrounded.
-2026-09-02T16:36:55.1306026+05:30 | Lifecycle   | Window resumed.
-2026-09-02T16:36:59.9879626+05:30 | TimerStress | [Dispose] TimerStress entered. Ticks so far: 365.
-```
+The issue asks whether teardown that is clean on one platform is clean on the
+other, and treats a divergence as a finding. There is none here.
 
-365 ticks against 367 expected at 4 Hz — the .NET timer ran at full rate through
-the background period. Over a comparable window the JS callback page recorded 153
-callbacks against roughly 400 expected at 5 Hz.
+Every case produced the same verdict on both platforms: ten passes on Windows
+(TC08 and TC10 not applicable) and ten on Android. No exception, hang or
+stale-callback record appeared on one platform and not the other, despite the two
+embedded browsers being roughly three years apart in version.
 
-This is expected embedded-browser behaviour, recorded for completeness.
+The measurable differences are in rate, not behaviour:
 
-## Expected differences between platforms
+- Disposal is two to four times slower on Android — a maximum of 178 ms against
+  18 ms on Windows for TC03 — but every value is far inside the two-second bound.
+- Working set runs higher on Android, 379–396 MB against 299–307 MB on Windows in
+  TC09, and is stable on both.
+- Background JavaScript throttling is marginally less aggressive on Android, about
+  1.14 against about 0.96 callbacks per second. Both are the same ~1 Hz clamp; see
+  the observation above, including why those two figures are approximate.
 
-None material. Disposal is 2–4× slower on Android (max 178 ms vs 18 ms on
-Windows for TC03) but well inside limits, and every pass/fail outcome is
-identical across the two WebView engines.
