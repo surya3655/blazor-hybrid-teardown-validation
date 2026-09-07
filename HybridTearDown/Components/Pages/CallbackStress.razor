@@ -2,6 +2,7 @@
 @implements IAsyncDisposable
 @inject IJSRuntime JS
 @inject ILogger<CallbackStress> Logger
+@using HybridTearDown.Services
 
 <PageTitle>JavaScript callback</PageTitle>
 
@@ -26,8 +27,15 @@
             return;
         }
 
+        // Track the component, module, and .NET reference for memory and lifecycle diagnostics.
+        TeardownDiagnostics.TrackComponent(this);
+
         _module = await JS.InvokeAsync<IJSObjectReference>("import", "./js/teardown.js");
+        TeardownDiagnostics.TrackModule(_module);
+
         _dotNetReference = DotNetObjectReference.Create(this);
+        TeardownDiagnostics.TrackDotNetReference(_dotNetReference);
+
         _callbackHandle = await _module.InvokeAsync<int>("startCallbacks", _dotNetReference);
     }
 

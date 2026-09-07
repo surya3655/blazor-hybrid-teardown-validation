@@ -1,4 +1,5 @@
 using HybridTearDown.Services;
+using Microsoft.AspNetCore.Components.WebView.Maui;
 
 namespace HybridTearDown;
 
@@ -9,10 +10,34 @@ public partial class MainPage : ContentPage
     public MainPage(NativePageNavigator navigator)
     {
         InitializeComponent();
-        TeardownDiagnostics.TrackPage(this);
-        TeardownDiagnostics.TrackWebView(BlazorHost);
-        TeardownDiagnostics.MarkWebViewCreated();
         _navigator = navigator;
+
+        // Observe the BlazorWebView's handler lifecycle to track webview destruction.
+        // This must be done after InitializeComponent so BlazorHost (x:Name="BlazorHost")
+        // from XAML is available.
+        BlazorHost.HandlerChanged += OnBlazorWebViewHandlerChanged;
+    }
+
+    /// <summary>
+    /// Responds to BlazorWebView handler lifecycle changes.
+    /// When Handler becomes null, the webview is being destroyed.
+    /// When Handler becomes non-null, a new webview instance is being created.
+    /// </summary>
+    private void OnBlazorWebViewHandlerChanged(object? sender, EventArgs e)
+    {
+        if (sender is BlazorWebView webView)
+        {
+            if (webView.Handler == null)
+            {
+                // Handler is being removed — webview destruction is underway.
+                TeardownDiagnostics.MarkWebViewDestroyed();
+            }
+            else
+            {
+                // Handler has been attached — a fresh webview has been created.
+                TeardownDiagnostics.MarkWebViewCreated();
+            }
+        }
     }
     private void OnCloseAppClicked(object? sender, EventArgs e)
     {
@@ -24,17 +49,6 @@ public partial class MainPage : ContentPage
         Application.Current?.Quit();
     #endif
     }
-
-    protected override void OnHandlerChanged()
-    {
-        base.OnHandlerChanged();
-
-        if (Handler is null)
-            TeardownDiagnostics.MarkWebViewDestroyed();
-        else
-            TeardownDiagnostics.MarkWebViewCreated();
-    }
-
     private void OnNativeScreenClicked(object? sender, EventArgs e)
     {
         _navigator.ShowNativePage();
