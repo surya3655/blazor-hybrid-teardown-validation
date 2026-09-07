@@ -324,21 +324,12 @@ would need a run with the component instrumented to log its own start.
 
 ### Android activity recreation abandons components
 
-In the TC08 configuration where the activity is destroyed and rebuilt, 22 rotations
-produced seven module acquisitions and one cleanup. The page handler is never
-transitioned to null on activity recreation, so no managed teardown runs. After a
-forced collection and finalizer drain, retained objects stood at 22 of 23 MainPage
-instances, 22 of 23 BlazorWebView instances and 16 of 16 components, with the
-working set rising from 342 MB to 409 MB across the run.
+In the TC08 Part B configuration, where the activity is destroyed and rebuilt, 22 rotations produced seven module acquisitions and one cleanup. The page handler is never transitioned to null on activity recreation, so no managed teardown runs. After a forced collection and finalizer drain, retained objects stood at 22 of 23 MainPage instances, 22 of 23 BlazorWebView instances and 16 of 16 components, with the working set rising from 342 MB to 409 MB across the run.
 
-This sits outside the scope of the fix under test, since disposal never runs on the
-recreation path. Two things bound how far the observation reaches. Container
-lifetime is unconfirmed: if `MainPage` is registered as a singleton, the container
-legitimately holds every instance and the retention is expected. And the
-configuration is not the shipping one — recreation was forced by removing
-`ConfigChanges.Orientation` and `ScreenSize` from the activity attribute for this
-test, whereas with the attribute as shipped, TC08 Part A showed 36 rotations with
-the WebView never destroyed, no duplicate work source and no error.
+MainPage is registered with AddTransient. Each instance is therefore a fresh object that the container does not hold, and container lifetime does not account for the retention. No cause was identified. Tracing the retaining reference would require a heap dump, which was not taken.
+
+This sits outside the scope of the fix under test, since disposal never runs on the recreation path — the fix governs what happens when disposal runs with calls in flight, not whether disposal is invoked at all. One bound applies to how far the observation reaches: the configuration is not the shipping one. Recreation was forced by removing ConfigChanges.Orientation and ScreenSize from the activity attribute for this test. With the attribute as shipped, TC08 Part A showed 36 rotations with the WebView never destroyed, no duplicate work source and no error.
+
 
 ## Platform comparison
 

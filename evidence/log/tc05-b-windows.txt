@@ -1,0 +1,197 @@
+2026-09-02T13:41:52.9044084+05:30 | Information | Evidence | Session started. Runtime: .NET 11.0.0-preview.7.26381.103. Evidence file: C:\Users\SuryaElayaperumal\AppData\Local\Packages\HybridTearDown_ph1m9x8skttmg\LocalState\evidence.log
+2026-09-02T13:41:52.9449272+05:30 | Information | Diagnostics | [Session] Diagnostics installed. Harness: v2. DisposeTimeout: 2s.
+2026-09-02T13:41:52.9565620+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 0. GC heap: 0 MB. Working set: 108 MB.
+2026-09-02T13:41:57.0120818+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 1.
+2026-09-02T13:41:57.9618232+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 1 MB. Working set: 168 MB.
+2026-09-02T13:41:58.6195495+05:30 | Information | Lifecycle | Window created.
+2026-09-02T13:41:58.6488573+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T13:42:02.9564468+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 241 MB.
+2026-09-02T13:42:07.9497328+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 241 MB.
+2026-09-02T13:42:12.9529435+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 238 MB.
+2026-09-02T13:42:17.9522004+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 238 MB.
+2026-09-02T13:42:22.9628592+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 238 MB.
+2026-09-02T13:42:27.9599844+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 238 MB.
+2026-09-02T13:42:32.9504834+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 238 MB.
+2026-09-02T13:42:37.9575559+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 237 MB.
+2026-09-02T13:42:42.9530882+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 237 MB.
+2026-09-02T13:42:47.9638032+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 237 MB.
+2026-09-02T13:42:52.9596376+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 238 MB.
+2026-09-02T13:42:57.9521196+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 238 MB.
+2026-09-02T13:43:02.9645840+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 237 MB.
+2026-09-02T13:43:07.9559252+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 237 MB.
+2026-09-02T13:43:12.9623843+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 237 MB.
+2026-09-02T13:43:17.9569980+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 237 MB.
+2026-09-02T13:43:22.9568530+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 237 MB.
+2026-09-02T13:43:27.9492452+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 238 MB.
+2026-09-02T13:43:32.9580166+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 241 MB.
+2026-09-02T13:43:34.7955269+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T13:43:37.9496744+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 241 MB.
+2026-09-02T13:43:42.9550995+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 239 MB.
+2026-09-02T13:43:44.3780352+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T13:43:44.3814523+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T13:43:47.6869601+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T13:43:47.9571994+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 240 MB.
+2026-09-02T13:43:52.9604965+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 242 MB.
+2026-09-02T13:43:56.7588597+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T13:43:56.7600567+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T13:43:57.9632922+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 242 MB.
+2026-09-02T13:43:59.5182956+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T13:44:02.9504814+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 239 MB.
+2026-09-02T13:44:05.1610697+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T13:44:05.1635311+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T13:44:05.1975117+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T13:44:05.2693650+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T13:44:05.2708115+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T13:44:07.9532091+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 240 MB.
+2026-09-02T13:44:12.9544219+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 246 MB.
+2026-09-02T13:44:15.2356638+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught entered. Callbacks so far: 25. WebView destroyed first: False.
+2026-09-02T13:44:15.3052021+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Cleanup] CallbackStressUncaught completed after 25 callbacks.
+2026-09-02T13:44:15.3062529+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught returned after 70 ms.
+2026-09-02T13:44:15.3102240+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T13:44:17.9486282+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 3 MB. Working set: 248 MB.
+2026-09-02T13:44:19.5576542+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 17. WebView destroyed first: False.
+2026-09-02T13:44:19.6413531+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 17 ticks.
+2026-09-02T13:44:19.6439080+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 83 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T13:44:22.9586122+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 253 MB.
+2026-09-02T13:44:25.4771648+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 1.
+2026-09-02T13:44:25.5044100+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T13:44:25.5486104+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T13:44:25.5615253+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught entered. Callbacks so far: 29. WebView destroyed first: True.
+2026-09-02T13:44:25.5638174+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Cleanup] CallbackStressUncaught completed after 29 callbacks.
+2026-09-02T13:44:25.5658377+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught returned after 2 ms.
+2026-09-02T13:44:27.9530970+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 1. GC heap: 4 MB. Working set: 258 MB.
+2026-09-02T13:44:28.0995956+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 1.
+2026-09-02T13:44:28.1030494+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 2.
+2026-09-02T13:44:28.1048132+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T13:44:32.9629369+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 2. GC heap: 8 MB. Working set: 264 MB.
+2026-09-02T13:44:37.9579525+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 2. GC heap: 8 MB. Working set: 262 MB.
+2026-09-02T13:44:37.9773610+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught entered. Callbacks so far: 28. WebView destroyed first: False.
+2026-09-02T13:44:38.0022349+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Cleanup] CallbackStressUncaught completed after 28 callbacks.
+2026-09-02T13:44:38.0052284+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught returned after 24 ms.
+2026-09-02T13:44:38.0341137+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T13:44:42.9616695+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 2. GC heap: 9 MB. Working set: 261 MB.
+2026-09-02T13:44:43.7705296+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 23. WebView destroyed first: False.
+2026-09-02T13:44:43.7812466+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 23 ticks.
+2026-09-02T13:44:43.7835152+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 10 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T13:44:45.8210114+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 2.
+2026-09-02T13:44:45.8241697+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T13:44:45.8578162+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T13:44:45.8612767+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught entered. Callbacks so far: 10. WebView destroyed first: True.
+2026-09-02T13:44:45.8636705+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Cleanup] CallbackStressUncaught completed after 10 callbacks.
+2026-09-02T13:44:45.8657378+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught returned after 2 ms.
+2026-09-02T13:44:47.7815960+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 2.
+2026-09-02T13:44:47.7843057+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 3.
+2026-09-02T13:44:47.7856750+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T13:44:47.9633721+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 3. GC heap: 9 MB. Working set: 267 MB.
+2026-09-02T13:44:48.2453652+05:30 | Information | Diagnostics | [Error] UnobservedTaskException. Type: System.AggregateException. Message: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.) ---> Inner: Microsoft.JSInterop.JSDisconnectedException. Message: JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away. Stack: 
+2026-09-02T13:44:48.2462891+05:30 | Error | UnobservedTaskException | Unobserved task exception.
+System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.)
+ ---> Microsoft.JSInterop.JSDisconnectedException: JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, JSCallType callType, CancellationToken cancellationToken, Object[] args)
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, JSCallType callType, Object[] args)
+   at Microsoft.JSInterop.JSObjectReferenceExtensions.InvokeVoidAsync(IJSObjectReference jsObjectReference, String identifier, Object[] args)
+   at HybridTearDown.Components.Pages.CallbackStressUncaught.DisposeAsync()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.<>c__DisplayClass108_0.<<Dispose>g__HandleAsyncExceptions|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.WebView.IpcSender.<>c__DisplayClass12_0.<NotifyUnhandledException>b__1()
+   at Microsoft.Maui.Dispatching.DispatcherExtensions.<>c__DisplayClass0_0`1.<DispatchAsync>b__0()
+   --- End of inner exception stack trace ---
+2026-09-02T13:44:48.3749583+05:30 | Information | Diagnostics | [Error] UnobservedTaskException. Type: System.AggregateException. Message: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.) ---> Inner: Microsoft.JSInterop.JSDisconnectedException. Message: JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away. Stack: 
+2026-09-02T13:44:48.3758813+05:30 | Error | UnobservedTaskException | Unobserved task exception.
+System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.)
+ ---> Microsoft.JSInterop.JSDisconnectedException: JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.
+   at Microsoft.AspNetCore.Components.WebView.Services.WebViewJSRuntime.BeginInvokeJS(JSInvocationInfo& invocationInfo)
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, JSCallType callType, CancellationToken cancellationToken, Object[] args)
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, JSCallType callType, Object[] args)
+   at Microsoft.JSInterop.JSObjectReferenceExtensions.InvokeVoidAsync(IJSObjectReference jsObjectReference, String identifier, Object[] args)
+   at HybridTearDown.Components.Pages.CallbackStressUncaught.DisposeAsync()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.<>c__DisplayClass108_0.<<Dispose>g__HandleAsyncExceptions|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.WebView.IpcSender.<>c__DisplayClass12_0.<NotifyUnhandledException>b__1()
+   at Microsoft.Maui.Dispatching.DispatcherExtensions.<>c__DisplayClass0_0`1.<DispatchAsync>b__0()
+   --- End of inner exception stack trace ---
+2026-09-02T13:44:52.9541513+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 3. GC heap: 7 MB. Working set: 267 MB.
+2026-09-02T13:44:57.9516061+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 3. GC heap: 7 MB. Working set: 263 MB.
+2026-09-02T13:44:59.0171750+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught entered. Callbacks so far: 41. WebView destroyed first: False.
+2026-09-02T13:44:59.0320673+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Cleanup] CallbackStressUncaught completed after 41 callbacks.
+2026-09-02T13:44:59.0338722+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught returned after 14 ms.
+2026-09-02T13:44:59.0637620+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T13:45:02.9643679+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 3. GC heap: 8 MB. Working set: 267 MB.
+2026-09-02T13:45:05.1316522+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 3.
+2026-09-02T13:45:05.1382507+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T13:45:05.1656511+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T13:45:05.1683915+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 24. WebView destroyed first: True.
+2026-09-02T13:45:05.1750919+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 24 ticks.
+2026-09-02T13:45:05.1763877+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 6 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T13:45:07.0602053+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 3.
+2026-09-02T13:45:07.0633320+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 4.
+2026-09-02T13:45:07.0656355+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T13:45:07.9558135+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 4. GC heap: 11 MB. Working set: 269 MB.
+2026-09-02T13:45:12.9551885+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 4. GC heap: 11 MB. Working set: 270 MB.
+2026-09-02T13:45:15.3525861+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught entered. Callbacks so far: 29. WebView destroyed first: False.
+2026-09-02T13:45:15.3651794+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Cleanup] CallbackStressUncaught completed after 29 callbacks.
+2026-09-02T13:45:15.3676745+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught returned after 12 ms.
+2026-09-02T13:45:15.4091868+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T13:45:17.9604050+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 4. GC heap: 12 MB. Working set: 268 MB.
+2026-09-02T13:45:20.4670875+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 20. WebView destroyed first: False.
+2026-09-02T13:45:20.4798687+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 20 ticks.
+2026-09-02T13:45:20.4831035+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 12 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T13:45:22.9523978+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 4. GC heap: 12 MB. Working set: 268 MB.
+2026-09-02T13:45:25.4237208+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 4.
+2026-09-02T13:45:25.4259673+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T13:45:25.4549489+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T13:45:25.4603719+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught entered. Callbacks so far: 24. WebView destroyed first: True.
+2026-09-02T13:45:25.4645752+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Cleanup] CallbackStressUncaught completed after 24 callbacks.
+2026-09-02T13:45:25.4676911+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught returned after 4 ms.
+2026-09-02T13:45:26.8902724+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 4.
+2026-09-02T13:45:26.8931524+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 5.
+2026-09-02T13:45:26.8950128+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T13:45:26.9309517+05:30 | Information | Diagnostics | [Error] UnobservedTaskException. Type: System.AggregateException. Message: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.) ---> Inner: Microsoft.JSInterop.JSDisconnectedException. Message: JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away. Stack: 
+2026-09-02T13:45:26.9337805+05:30 | Error | UnobservedTaskException | Unobserved task exception.
+System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.)
+ ---> Microsoft.JSInterop.JSDisconnectedException: JavaScript interop calls cannot be issued at this time. This is because the WebView has been disposed or the page has navigated away.
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, JSCallType callType, CancellationToken cancellationToken, Object[] args)
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, JSCallType callType, Object[] args)
+   at Microsoft.JSInterop.JSObjectReferenceExtensions.InvokeVoidAsync(IJSObjectReference jsObjectReference, String identifier, Object[] args)
+   at HybridTearDown.Components.Pages.CallbackStressUncaught.DisposeAsync()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.<>c__DisplayClass108_0.<<Dispose>g__HandleAsyncExceptions|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.WebView.IpcSender.<>c__DisplayClass12_0.<NotifyUnhandledException>b__1()
+   at Microsoft.Maui.Dispatching.DispatcherExtensions.<>c__DisplayClass0_0`1.<DispatchAsync>b__0()
+   --- End of inner exception stack trace ---
+2026-09-02T13:45:27.9563031+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 5. GC heap: 5 MB. Working set: 278 MB.
+2026-09-02T13:45:32.9569366+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 5. GC heap: 5 MB. Working set: 277 MB.
+2026-09-02T13:45:35.4746136+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught entered. Callbacks so far: 25. WebView destroyed first: False.
+2026-09-02T13:45:35.4907775+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Cleanup] CallbackStressUncaught completed after 25 callbacks.
+2026-09-02T13:45:35.4948704+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught returned after 16 ms.
+2026-09-02T13:45:35.5266915+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Module] TimerStress acquired JS module reference.
+2026-09-02T13:45:37.9527676+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 5. GC heap: 6 MB. Working set: 273 MB.
+2026-09-02T13:45:39.9544861+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress entered. Ticks so far: 17. WebView destroyed first: False.
+2026-09-02T13:45:39.9664122+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Cleanup] TimerStress completed after 17 ticks.
+2026-09-02T13:45:39.9691911+05:30 | Information | HybridTearDown.Components.Pages.TimerStress | [Dispose] TimerStress returned after 11 ms. Timer stopped: True. Module disposed cleanly: True.
+2026-09-02T13:45:42.9557965+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 5. GC heap: 4 MB. Working set: 270 MB.
+2026-09-02T13:45:44.7452935+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with native page. Cycle 5.
+2026-09-02T13:45:44.7489644+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with native page.
+2026-09-02T13:45:44.7795086+05:30 | Information | Diagnostics | [WebView] BlazorWebView handler disconnected. WebView destroyed.
+2026-09-02T13:45:44.7835991+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught entered. Callbacks so far: 23. WebView destroyed first: True.
+2026-09-02T13:45:44.7868214+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Cleanup] CallbackStressUncaught completed after 23 callbacks.
+2026-09-02T13:45:44.7887594+05:30 | Information | HybridTearDown.Components.Pages.CallbackStressUncaught | [Dispose] CallbackStressUncaught returned after 3 ms.
+2026-09-02T13:45:47.7922939+05:30 | Information | Diagnostics | [NativeNavigation] Replacing window content with Blazor page. Cycle 5.
+2026-09-02T13:45:47.7951993+05:30 | Information | Diagnostics | [WebView] BlazorWebView host created. Cycle 6.
+2026-09-02T13:45:47.7967325+05:30 | Information | NativeNavigation | [NativeNavigation] Replacing window content with Blazor page.
+2026-09-02T13:45:47.9586791+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 6. GC heap: 5 MB. Working set: 273 MB.
+2026-09-02T13:45:50.1520093+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T13:45:51.2752636+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T13:45:51.2766874+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T13:45:51.8657646+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T13:45:52.9590039+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 6. GC heap: 8 MB. Working set: 274 MB.
+2026-09-02T13:45:57.9644222+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 6. GC heap: 8 MB. Working set: 272 MB.
+2026-09-02T13:46:02.9581136+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 6. GC heap: 8 MB. Working set: 271 MB.
+2026-09-02T13:46:07.9609887+05:30 | Information | Diagnostics | [Memory] Sample (periodic). Cycle 6. GC heap: 8 MB. Working set: 271 MB.
+2026-09-02T13:46:09.2639736+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T13:46:09.2670889+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T13:46:09.2943112+05:30 | Information | Lifecycle | Window deactivated.
+2026-09-02T13:46:09.4225629+05:30 | Information | Lifecycle | Window resumed.
+2026-09-02T13:46:09.4238139+05:30 | Information | Lifecycle | Window activated.
+2026-09-02T13:46:11.6707057+05:30 | Information | Diagnostics | [Lifecycle] Window destroying. Slow call in flight at shutdown: False.
+2026-09-02T13:46:11.6729697+05:30 | Information | Diagnostics | [Lifecycle] Window destroyed. Shutdown took 2 ms. Unhandled: 0. Unobserved: 3.
