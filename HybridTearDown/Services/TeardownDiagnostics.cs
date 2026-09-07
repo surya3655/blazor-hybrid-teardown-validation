@@ -118,6 +118,16 @@ public static class TeardownDiagnostics
         Write($"[NativeNavigation] Replacing window content with {destination}. Cycle {_hostCycle}.");
     }
 
+    public static void MarkPageAttached()
+    {
+        Write($"[Page] MainPage handler attached. Cycle {_hostCycle}.");
+    }
+
+    public static void MarkPageDetached()
+    {
+        Write($"[Page] MainPage handler detached. Cycle {_hostCycle}.");
+    }
+
     /// <summary>
     /// TC12. Records a device orientation change so the log can prove a rotation
     /// happened; nothing else in the harness observes orientation.

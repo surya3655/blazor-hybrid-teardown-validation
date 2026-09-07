@@ -10,6 +10,10 @@ public partial class MainPage : ContentPage
     public MainPage(NativePageNavigator navigator)
     {
         InitializeComponent();
+
+        TeardownDiagnostics.TrackPage(this);
+        TeardownDiagnostics.TrackWebView(BlazorHost);
+
         _navigator = navigator;
 
         // Observe the BlazorWebView's handler lifecycle to track webview destruction.
@@ -39,6 +43,17 @@ public partial class MainPage : ContentPage
             }
         }
     }
+
+    protected override void OnHandlerChanged()
+    {
+        base.OnHandlerChanged();
+
+        if (Handler is null)
+            TeardownDiagnostics.MarkPageDetached();
+        else
+            TeardownDiagnostics.MarkPageAttached();
+    }
+
     private void OnCloseAppClicked(object? sender, EventArgs e)
     {
         //TeardownDiagnostics.BeginShutdown();   // logged while still alive
