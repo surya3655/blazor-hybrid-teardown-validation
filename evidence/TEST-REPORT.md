@@ -7,9 +7,9 @@
 
 ## Verdict: core fix passed, two retention findings open
 
-**The disposal fix is substantiated on both platforms.** Across 41 disposals that
-ran after the WebView had already been destroyed — 20 on Windows, 21 on Android —
-every `IJSObjectReference` disposal returned normally in 1–178 ms with no
+**The disposal fix is substantiated on both platforms.** Across 30 disposals that
+ran after the WebView had already been destroyed — 15 on Windows, 15 on Android —
+every `IJSObjectReference` disposal returned normally in 1–18 ms with no
 `JSDisconnectedException`, no unhandled or unobserved exception, and no hang
 (TC03). Closing the app during an unawaited 15-second promise terminated promptly
 on both platforms and never waited for the promise (TC04). Teardown triggered by
@@ -24,7 +24,7 @@ identified cause, and they are reported as findings rather than observations:
 
 1. **Component retention after in-flight teardown**, on both platforms and in the
    shipping configuration. Every component disposed while a JavaScript call was in
-   flight was retained, with its module: 16 of 16 on Windows, 17 of 17 on Android.
+   flight was retained, with its module: 8 of 36 on Windows, 8 of 34 on Android.
 2. **Host retention under Android activity recreation**, in the forced-recreation
    configuration only. 22 of 23 `MainPage` and `BlazorWebView` instances retained,
    along with all components, modules and timers.
@@ -103,13 +103,13 @@ Evidence logs are in [`evidence/log/`](https://github.com/surya3655/blazor-hybri
 | --- | --- | --- | --- |
 | TC01 | Route navigation while module calls are in flight | **PASS** — 11 iterations, max disposal 565 ms · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc01-windows.txt) | **PASS** — 10 iterations, max 367 ms · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc01-android.txt) |
 | TC02 | Replace the Blazor host with a native MAUI page | **PASS** — 20 cycles, 22/22 cleanup, max 32 ms · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc02-windows.txt) | **PASS** — 24 cycles, 24/24 cleanup, max 37 ms · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc02-android.txt) |
-| TC03 | `IJSObjectReference` disposal after the WebView is gone | **PASS** — 20 disposals, all `destroyed first: True`, max 18 ms · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc03-windows.txt) | **PASS** — 21 disposals, all `destroyed first: True`, max 178 ms · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc03-android.txt) |
+| TC03 | `IJSObjectReference` disposal after the WebView is gone | **PASS** — 15 disposals, all `destroyed first: True`, max 7 ms · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc03-windows.txt) | **PASS** — 15 disposals, all `destroyed first: True`, max 18 ms · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc03-android.txt) |
 | TC04 | Close during the long JavaScript promise | **PASS** — 5/5 closed with the call in flight · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc04-windows.txt) | **PASS** — 5/5 in flight, teardown 759–1875 ms · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc04-android.txt) |
 | TC05 | Interop call initiated inside `DisposeAsync` | **PASS** — guarded 10 teardowns / 0 errors; unguarded control 9 / 3 errors (errors expected) · [A](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc05-a-windows.txt) · [B](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc05-b-windows.txt) | **PASS** — guarded 10 / 0 errors; unguarded 10 / 6 errors · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc05-android.txt) |
 | TC06 | Background 60 s and resume during active work | **PASS** — 4 pages, app responsive after each resume · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc06-windows.txt) | **PASS** — 4 pages, app responsive after each resume · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc06-android.txt) |
 | TC07 | Background, then normal close | **PASS** — 4 pages, closed from the taskbar while backgrounded · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc07-windows.txt) | **PASS** — 4 pages, close 667–1019 ms · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc07-android.txt) |
 | TC08 | Rotation during active work | N/A — desktop windows do not rotate | **PASS** — see below · [A](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc08-a-android.txt) · [B](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc08-b-android.txt) |
-| TC09 | Memory stability under repeated host replacement | **PASS with finding** — 64 cycles, 1/64 hosts retained, 16/64 components retained · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc09-windows.txt) | **PASS with finding** — 62 cycles, 2/62 hosts retained, 17/62 components retained · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc09-android.txt) |
+| TC09 | Memory stability under repeated host replacement | **PASS with finding** — 36 cycles, 1/36 hosts retained, 8/36 components retained · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc09-windows.txt) | **PASS with finding** — 36 cycles, 0/34 hosts retained (at final checkpoint), 8/34 components retained · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc09-android.txt) |
 | TC10 | System Back during active work | N/A — no system Back control on desktop | **PASS** — 4 busy pages plus 7 native-page returns, 0 errors · [log](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc10-android.txt) |
 
 No `JSDisconnectedException`, `UnhandledException`, `Error` or `Critical` record
@@ -148,50 +148,64 @@ Rotation is additional coverage, not a "must hold" condition of the issue.
 
 A single session per platform of repeated `stress page → native page → return`
 cycles, rotating through all four stress pages, with a forced collection and
-finalizer drain at each checkpoint.
+finalizer drain at each checkpoint. Both sessions ran on the corrected
+instrumentation described under Instrumentation correction.
 
-**Windows — 64 cycles**
+**Windows — 36 cycles**
 ([tc09-windows.txt](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc09-windows.txt))
 
 | Checkpoint | Cycle | MainPage | BlazorWebView | Components | Modules | Timers | DotNetRefs | Working set |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Mid | 15 | 1/15 | 1/15 | 0/15 | 0/15 | 0/0 | 0/0 | 275 MB |
-| Final | 64 | 1/64 | 1/64 | **16/64** | **16/64** | 0/17 | 0/16 | 225 MB |
+| 1 | 8 | 1/8 | 1/8 | 0/8 | 0/8 | 0/0 | 0/0 | 271 MB |
+| 2 | 17 | 1/17 | 1/17 | 0/17 | 0/17 | 0/9 | 0/0 | 284 MB |
+| Final | 36 | 1/36 | 1/36 | **8/36** | **8/36** | 0/9 | 0/11 | 235 MB |
 
-Per-page disposals: ModuleLoop 15, SlowCall 16, TimerStress 17, CallbackStress 16.
-Host-created to handler-disconnected ratio 64:64. Maximum disposal 38 ms. Working
-set peaked at 283 MB and ended at 220 MB.
+Per-page disposals: ModuleLoop 8, SlowCall 8, TimerStress 9, CallbackStress 11.
+Host-created, handler-disconnected and page-detached records all number 36, a 1:1:1
+ratio across the run. Maximum disposal 52 ms. Working set peaked at 306 MB and
+ended at 232 MB, below the mid-run reading.
 
-**Android — 62 cycles**
+**Android — 34 cycles**
 ([tc09-android.txt](https://github.com/surya3655/blazor-hybrid-teardown-validation/blob/main/evidence/log/tc09-android.txt))
 
 | Checkpoint | Cycle | MainPage | BlazorWebView | Components | Modules | Timers | DotNetRefs | Working set |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Mid | 14 | 2/14 | 2/14 | 0/14 | 0/14 | 0/0 | 0/0 | 387 MB |
-| Final | 62 | 2/62 | 2/62 | **17/62** | **17/62** | 0/15 | 0/16 | 450 MB |
+| 1 | 8 | 1/8 | 1/8 | 0/8 | 0/8 | 0/0 | 0/0 | 379 MB |
+| 2 | 24 | 0/24 | 0/24 | **8/24** | **8/24** | 0/8 | 0/0 | 400 MB |
+| Final | 34 | 0/34 | 0/34 | **8/34** | **8/34** | 0/8 | 0/10 | 405 MB |
 
-Per-page disposals: ModuleLoop 14, SlowCall 17, TimerStress 15, CallbackStress 16.
-Host-created to handler-disconnected ratio 63:62 — the 63rd host was live when the
-log was captured. Maximum disposal 748 ms, a single TimerStress outlier against a
-40 ms maximum elsewhere; well inside the two-second bound. Working set rose to a
-plateau of 434–441 MB with the increments shrinking to zero across the final third.
+Per-page disposals: ModuleLoop 8, SlowCall 8, TimerStress 8, CallbackStress 11.
+36 hosts created against 35 disconnects and 35 page detachments — the 36th host
+was live when the log was captured. Maximum disposal 177 ms. Working set rose from
+379 MB to a band of 405–421 MB and was flat across the final third.
+
+The Android final checkpoint was taken three times in succession. The first read
+`MainPage=1/34`, the two that followed read `0/34`; the single instance in the
+first reading was awaiting collection, not retained. Component and module counts
+were identical in all three.
 
 **Hosts are stable. Components are not.**
 
-`MainPage` and `BlazorWebView` hold at 1 alive of 64 on Windows and 2 of 62 on
+`MainPage` and `BlazorWebView` hold at 1 alive of 36 on Windows and 0 of 34 on
 Android while the created count climbs — the shape of a stable graph, not a leak.
-Timers and `DotNetObjectReference` instances release completely: 0 of 17 and 0 of
-16 on Windows, 0 of 15 and 0 of 16 on Android.
+Timers and `DotNetObjectReference` instances release completely: 0 of 9 and 0 of 11
+on Windows, 0 of 8 and 0 of 10 on Android. Both denominators are non-zero, so the
+timer and callback paths were genuinely exercised.
 
-Components and modules do not. Both climb from 0 at the mid checkpoint to 16 and
-17 respectively, and both counts match the SlowCall disposal count on their
-platform exactly. This is the in-flight retention finding; see Findings below.
+Components and modules do not release. Both climb from 0 at the first checkpoint to
+8 on each platform, and 8 is the SlowCall disposal count on both. This is the
+in-flight retention finding; see Findings below.
 
 **Coverage note.** An earlier TC09 run reported `Timers=0/0` and `DotNetRefs=0/0`,
 which meant those objects were never created and the case proved nothing about the
 timer and callback paths. `CallbackStress.razor` now calls `TrackComponent`,
 `TrackModule` and `TrackDotNetReference`, and the runs above confirm the calls are
-reached. The earlier run is superseded.
+reached. That run is superseded, as are the earlier 64-cycle and 62-cycle runs,
+which used the synthetic marker.
+
+**Record reconciliation.** Windows records 36 cleanups but 25 carry a
+`WebView destroyed first` flag; the 11 without it are `CallbackStress`, whose
+dispose record does not emit that field.
 
 ### TC10 — system Back during active work
 
@@ -250,31 +264,58 @@ durations and error counts are recorded there.
 
 ## Instrumentation correction — the WebView destruction marker
 
-An earlier version of `NativePageNavigator.ShowNativePage()` called
+Two defects made every earlier `WebView destroyed first` reading unsound. Both
+have been corrected and the affected cases re-run.
+
+**The synthetic call.** `NativePageNavigator.ShowNativePage()` called
 `TeardownDiagnostics.MarkWebViewDestroyed()` directly, immediately after queuing
-the page swap. That marker was synthetic: it recorded an intention rather than an
-observed event, so every `WebView destroyed first` flag derived from it was
-unsound.
+the page swap. That marker recorded an intention rather than an observed event.
+The call has been removed; the navigator now records only the navigation itself.
 
-The call has been removed. The marker is now raised only by the `BlazorWebView`
-handler's own transition to null, and `MarkWebViewCreated`/`MarkWebViewDestroyed`
-are idempotent because MAUI raises `HandlerChanged` more than once per host.
+**The wrong observed object.** `MainPage.OnHandlerChanged` marked the WebView
+destroyed when **`MainPage.Handler`** went null. That is the page's handler, not
+the `BlazorWebView`'s — a proxy that fires earlier and for a different reason.
+`MainPage` now subscribes to `BlazorHost.HandlerChanged` and marks create/destroy
+from the `BlazorWebView`'s own handler transition. The page-level event is still
+recorded, under its own `[Page] MainPage handler attached/detached` records, so it
+cannot be mistaken for WebView evidence.
 
-Two independent signals confirm the marker is now real:
+The two events are now visibly distinct in every cycle:
 
-| Signal | Synthetic marker | Corrected |
+```
+20:07:20.207  [NativeNavigation] Replacing window content with native page
+20:07:20.224  [Page] MainPage handler detached
+20:07:20.232  [WebView] BlazorWebView handler disconnected. WebView destroyed.
+20:07:20.236  [Dispose] ModuleLoop entered ... WebView destroyed first: True
+```
+
+| Signal | Before | After |
 | --- | --- | --- |
-| Host-created to handler-disconnected ratio | 2 : 1 | 64 : 64 (Windows), 62 : 62 (Android) |
-| Gap between the navigation record and the disconnect record | sub-millisecond | 14–47 ms |
+| Marker source | `MainPage.Handler`, plus a direct call from the navigator | `BlazorWebView.Handler` only |
+| Page and WebView events | one record, indistinguishable | separate records, 8 ms apart on Windows, 6–32 ms on Android |
+| Hosts created : handlers disconnected | 2 : 1 | 16 : 15 on both platforms in TC03; 36 : 36 on Windows in TC09 |
 
-A synthetic marker fires on the calling thread and therefore always precedes the
-navigation record by less than a millisecond, and it double-counts because the
-real handler transition still occurs. Neither signature is present in the
-corrected runs.
+The synthetic call fired on the calling thread, outside the queued swap callback,
+so it always preceded the navigation record by less than a millisecond and
+double-counted because the real handler transition still occurred. Neither
+signature appears in the corrected runs.
 
-TC03 and TC09 were re-run in full on the corrected build. The remaining case logs
-predate it; where their `WebView destroyed first` flags were checked, the 1:1
-ratio and multi-millisecond gap characteristic of a real disconnect were present.
+**What was re-measured.** TC03 and TC09 were re-run in full on both platforms
+against the corrected build. TC03 recorded 15 disposals per platform, every one
+reading `WebView destroyed first: True`, with the WebView disconnect arriving
+between the page detach and the disposal in all 30 cases. All earlier
+`destroyed first` readings — including the 64-cycle and 62-cycle TC09 runs — were
+produced by the defective instrumentation and are superseded rather than cited.
+
+The remaining case logs (TC01, TC02, TC04 through TC08, TC10) also predate the
+correction. Their results do not turn on the ordering flag, but any
+`WebView destroyed first` value in them carries the same defect and is not relied
+on in this report.
+
+**One hypothesis closed.** The corrected runs show the `BlazorWebView` handler
+disconnecting cleanly on every host replacement — 15 of 15 per platform in TC03,
+36 of 36 on Windows in TC09. An undisconnected handler is therefore not the cause
+of Finding 1.
 
 ## Disposal guarding and what TC03 actually measures
 
@@ -302,7 +343,7 @@ catch (JSDisconnectedException)
 So `Module disposed cleanly: True` is positive evidence that disposal completed
 without throwing. Had the fix not been present, that flag would read `False` and
 the catch block would have been entered. Across TC03 the flag reads `True` on all
-41 post-destruction disposals.
+30 post-destruction disposals (15 Windows + 15 Android).
 
 TC05 supplies the complementary control: an identical component with the catch
 removed does throw, proving the flag distinguishes the two states rather than
@@ -396,38 +437,49 @@ a forced collection and finalizer drain, together with its JS module:
 
 | Platform | SlowCall disposals | Components retained | Modules retained |
 | --- | ---: | ---: | ---: |
-| Windows | 16 | 16 of 64 | 16 of 64 |
-| Android | 17 | 17 of 62 | 17 of 62 |
+| Windows | 8 | 8 of 36 | 8 of 36 |
+| Android | 8 | 8 of 34 | 8 of 34 |
 
-The retained count matches the SlowCall disposal count exactly on each platform,
-and SlowCall's count is distinct from the other three pages in both runs — 17
-against 14, 15 and 16 on Android; 16 against 15, 17 and 16 on Windows, where the
-attribution is confirmed by the Android result rather than by the count alone. All
-33 disposals recorded `Call state: in flight` and `Was in flight at disposal:
-True`.
+**The attribution is unambiguous.** The four stress pages produced different
+disposal counts in each run, and the retained count matches SlowCall alone:
+
+| Platform | ModuleLoop | SlowCall | TimerStress | CallbackStress | Retained |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Windows | 8 | **8** | 9 | 11 | **8** |
+| Android | 8 | **8** | 8 | 11 | **8** |
+
+`CallbackStress` disposed 11 times on both platforms and retained nothing, which
+excludes it. All 16 SlowCall disposals recorded `Call state: in flight` and
+`Was in flight at disposal: True`.
 
 **The abandoned calls never resolve.** `SlowCall.razor` attaches a continuation
 that records any fault through `TeardownDiagnostics.RecordObservedSlowCallFault`.
-Across 33 abandoned promises on the two platforms, that record appears **zero
+Across 16 abandoned promises on the two platforms, that record appears **zero
 times**. The calls do not complete, do not cancel and do not fault; they remain
 pending indefinitely, and the awaiting state machine holds the component. This
 also explains why the session totals read `unobserved: 0` — a task that never
 faults cannot produce an unobserved exception.
 
-**Not a settling artefact.** On Android the SlowCall block ran second of four. The
-checkpoint was taken four minutes and two complete workload blocks after that
-page was last used, and all 17 were still held. The Windows run, where SlowCall
-ran last, agrees.
+**Not a settling artefact.** On Android the retention was already at its final
+value of 8 at the second checkpoint (cycle 24) and unchanged ten cycles later. The
+final checkpoint was taken three times in succession, several seconds apart, and
+read 8 every time while `MainPage` fell from 1 to 0 between the first and second —
+so collection was still active in that window and did not touch the components.
 
 **Not an artefact of the harness.** `TeardownDiagnostics` tracks through
 `WeakReference` only; the fault continuation captures no `this`; and the in-flight
 probe is a single static field, cleared in `DisposeAsync`, which cannot account for
-16 or 17 instances. The three other stress pages, tracked by the same mechanism in
-the same sessions, report zero retained.
+8 instances. The three other stress pages, tracked by the same mechanism in the
+same sessions, report zero retained.
 
-This reproduces in the **shipping configuration on both platforms** — no forced
-activity recreation and no modified activity attribute. The retaining reference
-was not traced; doing so would require a heap dump, which was not taken.
+**Not an undisconnected WebView.** The corrected instrumentation shows the
+`BlazorWebView` handler disconnecting on every host replacement — 36 of 36 on
+Windows — so a surviving handler is not what holds the component.
+
+This reproduces in the **shipping configuration on both platforms**, with no
+forced activity recreation and no modified activity attribute, and it reproduced
+again on the corrected build after the marker defects were fixed. The retaining
+reference was not traced; doing so would require a heap dump, which was not taken.
 
 ### Finding 2 — host retention under Android activity recreation
 
@@ -473,10 +525,11 @@ in-flight teardown reproduces on both platforms at the same rate.
 
 The measurable differences are in rate, not behaviour:
 
-- Disposal is two to four times slower on Android — a maximum of 178 ms against
-  18 ms on Windows for TC03 — but every value is far inside the two-second bound.
-- Working set runs higher on Android, plateauing at 434–441 MB against 220–283 MB
-  on Windows in TC09, and reaches a stable band on both.
+- Disposal is two to three times slower on Android — a maximum of 18 ms against
+  7 ms on Windows in TC03, and 177 ms against 52 ms in the longer TC09 run — but
+  every value is far inside the two-second bound.
+- Working set runs higher on Android, settling at 405–421 MB against 232–306 MB on
+  Windows in TC09, and reaches a stable band on both.
 - Background JavaScript throttling is marginally less aggressive on Android, about
   1.14 against about 0.96 callbacks per second. Both are the same ~1 Hz clamp; see
   the observation above, including why those two figures are approximate.
